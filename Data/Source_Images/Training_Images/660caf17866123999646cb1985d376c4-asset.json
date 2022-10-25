@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "660caf17866123999646cb1985d376c4",
+        "name": "00000054.jpg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000054.jpg",
+        "size": {
+            "width": 1000,
+            "height": 870
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "8wuyuv9Bc",
+            "type": "RECTANGLE",
+            "tags": [
+                "Cow"
+            ],
+            "boundingBox": {
+                "height": 644.2971732003348,
+                "width": 800.0000379100348,
+                "left": 65.34162248883928,
+                "top": 34.8
+            },
+            "points": [
+                {
+                    "x": 65.34162248883928,
+                    "y": 34.8
+                },
+                {
+                    "x": 865.3416603988742,
+                    "y": 34.8
+                },
+                {
+                    "x": 865.3416603988742,
+                    "y": 679.0971732003349
+                },
+                {
+                    "x": 65.34162248883928,
+                    "y": 679.0971732003349
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

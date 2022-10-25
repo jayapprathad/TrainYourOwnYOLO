@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "840dda5e78bfe9b89873150311e75c00",
+        "name": "cat.57.jpg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.57.jpg",
+        "size": {
+            "width": 335,
+            "height": 291
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "UEOXZ-gpn",
+            "type": "RECTANGLE",
+            "tags": [
+                "Cat"
+            ],
+            "boundingBox": {
+                "height": 133.02856825692314,
+                "width": 132.00496531597733,
+                "left": 14.474403059512154,
+                "top": 10.974857777186802
+            },
+            "points": [
+                {
+                    "x": 14.474403059512154,
+                    "y": 10.974857777186802
+                },
+                {
+                    "x": 146.47936837548949,
+                    "y": 10.974857777186802
+                },
+                {
+                    "x": 146.47936837548949,
+                    "y": 144.00342603410994
+                },
+                {
+                    "x": 14.474403059512154,
+                    "y": 144.00342603410994
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "4e9785adfdb2620f8f3e98a303eb1e74",
+        "name": "dog.18.jpg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.18.jpg",
+        "size": {
+            "width": 215,
+            "height": 348
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "x254WjvzW",
+            "type": "RECTANGLE",
+            "tags": [
+                "Dog"
+            ],
+            "boundingBox": {
+                "height": 116.92799848284041,
+                "width": 112.0184636281214,
+                "left": 97.38929589956517,
+                "top": 33.407998482840405
+            },
+            "points": [
+                {
+                    "x": 97.38929589956517,
+                    "y": 33.407998482840405
+                },
+                {
+                    "x": 209.40775952768655,
+                    "y": 33.407998482840405
+                },
+                {
+                    "x": 209.40775952768655,
+                    "y": 150.3359969656808
+                },
+                {
+                    "x": 97.38929589956517,
+                    "y": 150.3359969656808
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
