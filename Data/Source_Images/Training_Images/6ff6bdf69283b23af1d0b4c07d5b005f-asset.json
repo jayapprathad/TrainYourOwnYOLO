@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "6ff6bdf69283b23af1d0b4c07d5b005f",
+        "name": "download%20(4).jpeg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download%20(4).jpeg",
+        "size": {
+            "width": 178,
+            "height": 280
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "qD4jw-ykp",
+            "type": "RECTANGLE",
+            "tags": [
+                "Monkey"
+            ],
+            "boundingBox": {
+                "height": 243.20001220703125,
+                "width": 131.5199951171875,
+                "left": 37.760009765625,
+                "top": 15.040002441406251
+            },
+            "points": [
+                {
+                    "x": 37.760009765625,
+                    "y": 15.040002441406251
+                },
+                {
+                    "x": 169.2800048828125,
+                    "y": 15.040002441406251
+                },
+                {
+                    "x": 169.2800048828125,
+                    "y": 258.2400146484375
+                },
+                {
+                    "x": 37.760009765625,
+                    "y": 258.2400146484375
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

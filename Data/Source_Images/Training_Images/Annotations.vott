@@ -5,17 +5,17 @@
         "name": "Images",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjQzNjE4Y2M2Y2Q5MmZkNTI5NjRlZWRiN2FkZTMxNTMxYzg4MDAzZjIwOWZmMDJjZDRlNGYxMzlkMjZhMDRkYTE3ODc0NWRlY2FhNGMwY2Q1MGQ5ZTVlODY2NjJlZjQwYjFkYTEyYjVmMTIyNjJhZTIyNzYzN2ExY2MyNjE1NTc2ZDk4ZDQzYmNjZGE2YmQwYmVmMDBhZTlhMmE4MDk5NDRhOTIwNzJlYzU4YTBlNTc0NjZhMDEwMmIzMTUzNWNkZTY4YTY3NGUwNGQyMTM4MDI1NjQ3YzBhN2YxZTI2NGQiLCJpdiI6IjkyNDlmMmQ2YjA4ZDUyM2JkMGQwOTZlOTU2MzlmZDVkYzVkOWFkYmU1Njk2YWY0OCJ9"
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDY3OTRkZDdkZTBhMzM0MDgzN2VjOTExNzAzZTgzNTFjNTM3Y2E5NTVlNjEwZWJlYTRmYjhmZmUwZTEzNjc5ODE2ZGEwYzBlZTdkNjg0NGRiODRkMzY3NWE3NDJiZTA0NTlmZDRjNjQ1ZjAyYTgwOTdmMzM0MzNlNWEyYjg1NzgwNDUwN2E4YjA4ODFlNGU5MzgzYTkxZTMyODZkOWY4ZGU3NmJmMzliZDMyYTVhYzBhYmVhNWZlODFmZjkwMTZkNGU3YjcxYTBiMWVlZmU3NGY3MmNjMGVmMTNlZGVhM2EiLCJpdiI6IjM3NGQ3NmQ4YTAwNWViYmQ5MTJiZmVhNjZjYzgwMmQ2OWY3MTZhYTYzNGQyMjU2NCJ9"
         },
-        "id": "U4wNgPFXB"
+        "id": "34pXmK3fq"
     },
     "targetConnection": {
         "name": "Images",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTA2MmMzNGY3MmRhYWU5OTg4YzEyNmVhMjEzNGM3NzkzMDIyZTc5NzJmN2YwYzU4MDM5OTg5ZDg2NjQxOGU3NzNkMDkzNmE2ODQzZDY5ZGQ3NTc0NjRmMTEwZGIyZTUyMjJjMTAzMWM3NWFmMGM3YzIwZjVlZmQ1ZTkxZDdmY2VjNzU3MTE0ZTE4YTBmMDEzMDI1YWVkN2IxOGQ3Njk4OGJjMjU1MGE4MjM5M2FlNjU1MzFjNzMwNjdkNTljN2ZlNDBhMGI3YTA1NjYxNDI2MjNjMzBhOWFhZTliZTY3N2IiLCJpdiI6ImM3NDA5NzI3YzdhZTA4ZTY5YTlmYTI4MTNlZjYyNGJkYzA4MmViODBjMGYxYWUxZCJ9"
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYWM3ODg4MmIwY2M3Nzk3NjBmYjE4OGY0NWNlOWQwMjMzMzRiZTdmNTlkYmY5OTcyZjg5MDJmNTIwOWU2OWQ3MzYwYzAxNWM0NzY3YzBjZDdjZjljZDAzNWUwOGU4OWFhY2JmODJkMjU4Y2VkYjZiZWVlNDhlMDY4MDA4NmQxNGUxZDliYTk2ZTNjNzlhOTNjMmZjZTNmYzc3Zjc1N2JhOTE4ZTc2MmVhZWEzMzJlMjBmNmIyZjc1NmY1ZDVjMTAyYzU1MDM0ZmM1YTk0MWRmYzc0MGViYWVkMjdjOGIzZWUiLCJpdiI6ImIwMWY0YzJlM2UyNjMxZjA5NmY3NGMwZGI1M2FlNDFkYWY4YjJlMTg1MmQ4MjVlMCJ9"
         },
-        "id": "U4wNgPFXB"
+        "id": "34pXmK3fq"
     },
     "videoSettings": {
         "frameExtractionRate": 15
@@ -26,28 +26,36 @@
             "color": "#5db300"
         },
         {
-            "name": "Cat",
+            "name": "Goat",
             "color": "#e81123"
         },
         {
-            "name": "Dog",
+            "name": "Peacock",
             "color": "#6917aa"
+        },
+        {
+            "name": "Monkey",
+            "color": "#015cda"
+        },
+        {
+            "name": "Rat",
+            "color": "#4894fe"
         }
     ],
-    "id": "DAH2iYI75",
+    "id": "DvEo0pC8e",
     "activeLearningSettings": {
         "autoDetect": false,
         "predictTag": true,
         "modelPathType": "coco"
     },
     "exportFormat": {
-        "providerType": "csv",
+        "providerType": "vottJson",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDJkNzBhZjY1Njc1ODk3NjgwMDM2ZTBlNDRjZTY5OTlhYWI5MmYxMDA4NThlYWMwZmQ5YTQ2YWMxYzRjNDI1ZDJjOTczYzUyYjY4N2EyOTc4ODI5MGQ1ZGIxOGM5Y2E5IiwiaXYiOiJjOTRlZWM2M2M4MTYwMDFhMzZmNjMwYTZiY2ZiMTk2MzYyMmU1ZGQ4YzczMzNmZWEifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmFhYjBjNzI1NjhhYmVmNjEzMDUyM2Q4OTMzMGQ5MTk5OTA5NGEyYTE5M2FiZDE5NzA1NDJhNmFhNDkyMjA5Yzk4MWUwMGJiMmRiYjJjNDYxOGE5YjU5ZDc1MDFhMzk1IiwiaXYiOiJhYTRiN2YwYTJlMjNkMzY5YzQ3MWM4MGYzNTgyNTkwZjNjYzhkMjNkYzFmMGMyMWEifQ=="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "5774b4501999893c81087513298fd265",
+    "lastVisitedAssetId": "1f17c4896073f7d12cecc47ea15c21a0",
     "assets": {
         "880a4f84b077e8f366f5d0feb3a36035": {
             "format": "jpg",
@@ -169,18 +177,6 @@
             "state": 2,
             "type": 1
         },
-        "378a1b31230aecfb04642c8796cf64f6": {
-            "format": "jpg",
-            "id": "378a1b31230aecfb04642c8796cf64f6",
-            "name": "00000041.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000041.jpg",
-            "size": {
-                "width": 580,
-                "height": 870
-            },
-            "state": 2,
-            "type": 1
-        },
         "73cf16d05971dba05690a95b321a92c0": {
             "format": "jpg",
             "id": "73cf16d05971dba05690a95b321a92c0",
@@ -201,6 +197,18 @@
             "size": {
                 "width": 1024,
                 "height": 1024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "378a1b31230aecfb04642c8796cf64f6": {
+            "format": "jpg",
+            "id": "378a1b31230aecfb04642c8796cf64f6",
+            "name": "00000041.jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000041.jpg",
+            "size": {
+                "width": 580,
+                "height": 870
             },
             "state": 2,
             "type": 1
@@ -301,18 +309,6 @@
             "state": 2,
             "type": 1
         },
-        "c4a2d7108c26d5d415211e05027a750f": {
-            "format": "jpg",
-            "id": "c4a2d7108c26d5d415211e05027a750f",
-            "name": "00000057.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000057.jpg",
-            "size": {
-                "width": 448,
-                "height": 298
-            },
-            "state": 2,
-            "type": 1
-        },
         "34e1c7bfcdf4c532fd45d0258ccda997": {
             "format": "jpg",
             "id": "34e1c7bfcdf4c532fd45d0258ccda997",
@@ -321,6 +317,18 @@
             "size": {
                 "width": 626,
                 "height": 417
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4a2d7108c26d5d415211e05027a750f": {
+            "format": "jpg",
+            "id": "c4a2d7108c26d5d415211e05027a750f",
+            "name": "00000057.jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000057.jpg",
+            "size": {
+                "width": 448,
+                "height": 298
             },
             "state": 2,
             "type": 1
@@ -361,18 +369,6 @@
             "state": 2,
             "type": 1
         },
-        "ff7fb523dfd29c77683fd397f7ecba9c": {
-            "format": "jpg",
-            "id": "ff7fb523dfd29c77683fd397f7ecba9c",
-            "name": "00000073.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000073.jpg",
-            "size": {
-                "width": 645,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
         "a0424a0032cd217e7b15751cbd7cb0bb": {
             "format": "jpg",
             "id": "a0424a0032cd217e7b15751cbd7cb0bb",
@@ -381,6 +377,18 @@
             "size": {
                 "width": 400,
                 "height": 400
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff7fb523dfd29c77683fd397f7ecba9c": {
+            "format": "jpg",
+            "id": "ff7fb523dfd29c77683fd397f7ecba9c",
+            "name": "00000073.jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000073.jpg",
+            "size": {
+                "width": 645,
+                "height": 500
             },
             "state": 2,
             "type": 1
@@ -649,2402 +657,1682 @@
             "state": 2,
             "type": 1
         },
-        "8f39f4d55b2ff412666b63d3fa3eb28e": {
-            "format": "jpg",
-            "id": "8f39f4d55b2ff412666b63d3fa3eb28e",
-            "name": "cat.1.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.1.jpg",
+        "10b4306a87da0d0d0dce6c34eceb526b": {
+            "format": "jpeg",
+            "id": "10b4306a87da0d0d0dce6c34eceb526b",
+            "name": "download%20(1).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download%20(1).jpeg",
             "size": {
-                "width": 300,
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e0063b5d5a2f85673ac32820c7d8a231": {
+            "format": "jpeg",
+            "id": "e0063b5d5a2f85673ac32820c7d8a231",
+            "name": "download%20(2).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download%20(2).jpeg",
+            "size": {
+                "width": 265,
+                "height": 190
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc7c63784218915d06cbfec01b805805": {
+            "format": "jpeg",
+            "id": "cc7c63784218915d06cbfec01b805805",
+            "name": "download%20(3).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download%20(3).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ff6bdf69283b23af1d0b4c07d5b005f": {
+            "format": "jpeg",
+            "id": "6ff6bdf69283b23af1d0b4c07d5b005f",
+            "name": "download%20(4).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download%20(4).jpeg",
+            "size": {
+                "width": 178,
                 "height": 280
             },
             "state": 2,
             "type": 1
         },
-        "06a5663ae549b4c7898cdab2bbb8f380": {
-            "format": "jpg",
-            "id": "06a5663ae549b4c7898cdab2bbb8f380",
-            "name": "cat.14.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.14.jpg",
+        "688bb69a16af199f95767a34bdb20afc": {
+            "format": "jpeg",
+            "id": "688bb69a16af199f95767a34bdb20afc",
+            "name": "download.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/download.jpeg",
             "size": {
-                "width": 320,
-                "height": 267
+                "width": 172,
+                "height": 292
             },
             "state": 2,
             "type": 1
         },
-        "14492835097ee383be5abed957d514b5": {
-            "format": "jpg",
-            "id": "14492835097ee383be5abed957d514b5",
-            "name": "cat.15.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.15.jpg",
-            "size": {
-                "width": 405,
-                "height": 353
-            },
-            "state": 2,
-            "type": 1
-        },
-        "5e213786078e4791f4179cf5cfda0e0b": {
-            "format": "jpg",
-            "id": "5e213786078e4791f4179cf5cfda0e0b",
-            "name": "cat.16.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.16.jpg",
-            "size": {
-                "width": 448,
-                "height": 258
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a294d7117fa9b0eb1296ac764c030a20": {
-            "format": "jpg",
-            "id": "a294d7117fa9b0eb1296ac764c030a20",
-            "name": "cat.17.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.17.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "2431711f0b519ec283fee642aedea372": {
-            "format": "jpg",
-            "id": "2431711f0b519ec283fee642aedea372",
-            "name": "cat.18.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.18.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "7330bbb8efd71868f2103009ace56e29": {
-            "format": "jpg",
-            "id": "7330bbb8efd71868f2103009ace56e29",
-            "name": "cat.189.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.189.jpg",
-            "size": {
-                "width": 500,
-                "height": 469
-            },
-            "state": 2,
-            "type": 1
-        },
-        "91fcb1f70bd6dec30278aad4928b7490": {
-            "format": "jpg",
-            "id": "91fcb1f70bd6dec30278aad4928b7490",
-            "name": "cat.19.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.19.jpg",
-            "size": {
-                "width": 320,
-                "height": 223
-            },
-            "state": 2,
-            "type": 1
-        },
-        "26aef7503f06813aa57819aae35b7b32": {
-            "format": "jpg",
-            "id": "26aef7503f06813aa57819aae35b7b32",
-            "name": "cat.190.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.190.jpg",
-            "size": {
-                "width": 500,
-                "height": 367
-            },
-            "state": 2,
-            "type": 1
-        },
-        "70b19acf746ec953ce2ccfe9863cb3eb": {
-            "format": "jpg",
-            "id": "70b19acf746ec953ce2ccfe9863cb3eb",
-            "name": "cat.191.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.191.jpg",
-            "size": {
-                "width": 383,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "9b0ba94aa4ea5d9ab8a66cbe5cf92334": {
-            "format": "jpg",
-            "id": "9b0ba94aa4ea5d9ab8a66cbe5cf92334",
-            "name": "cat.192.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.192.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "de9492f5edaf1e0a4b567bfcb3f504ca": {
-            "format": "jpg",
-            "id": "de9492f5edaf1e0a4b567bfcb3f504ca",
-            "name": "cat.193.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.193.jpg",
-            "size": {
-                "width": 180,
-                "height": 199
-            },
-            "state": 2,
-            "type": 1
-        },
-        "ea52f3ae241acc9d6b2db2d9d0bbdcd9": {
-            "format": "jpg",
-            "id": "ea52f3ae241acc9d6b2db2d9d0bbdcd9",
-            "name": "cat.194.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.194.jpg",
-            "size": {
-                "width": 500,
-                "height": 497
-            },
-            "state": 2,
-            "type": 1
-        },
-        "0db0a0202cf3cf18590f2faeeafe4ec4": {
-            "format": "jpg",
-            "id": "0db0a0202cf3cf18590f2faeeafe4ec4",
-            "name": "cat.195.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.195.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "d5299d06a41c6ec371cc0bc9a310842d": {
-            "format": "jpg",
-            "id": "d5299d06a41c6ec371cc0bc9a310842d",
-            "name": "cat.196.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.196.jpg",
-            "size": {
-                "width": 399,
-                "height": 347
-            },
-            "state": 2,
-            "type": 1
-        },
-        "59c2e10fe4b5a1a4550e8d4d841acabb": {
-            "format": "jpg",
-            "id": "59c2e10fe4b5a1a4550e8d4d841acabb",
-            "name": "cat.197.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.197.jpg",
-            "size": {
-                "width": 280,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "ad831bfe6b528e59fb7985e90e51004f": {
-            "format": "jpg",
-            "id": "ad831bfe6b528e59fb7985e90e51004f",
-            "name": "cat.198.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.198.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "94464b1e4580f59d0335ced1b1f1d88d": {
-            "format": "jpg",
-            "id": "94464b1e4580f59d0335ced1b1f1d88d",
-            "name": "cat.199.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.199.jpg",
-            "size": {
-                "width": 270,
-                "height": 319
-            },
-            "state": 2,
-            "type": 1
-        },
-        "81c5494aa26c75e222299c4c090b605d": {
-            "format": "jpg",
-            "id": "81c5494aa26c75e222299c4c090b605d",
-            "name": "cat.2.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.2.jpg",
-            "size": {
-                "width": 312,
-                "height": 396
-            },
-            "state": 2,
-            "type": 1
-        },
-        "13428866eae6bb1c4fe4ffca3e6a6b0e": {
-            "format": "jpg",
-            "id": "13428866eae6bb1c4fe4ffca3e6a6b0e",
-            "name": "cat.20.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.20.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4c594dee594e0cac1e9696e2eb4fdae5": {
-            "format": "jpg",
-            "id": "4c594dee594e0cac1e9696e2eb4fdae5",
-            "name": "cat.200.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.200.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "c00438c3ba15cd0504d8bab8a29647cf": {
-            "format": "jpg",
-            "id": "c00438c3ba15cd0504d8bab8a29647cf",
-            "name": "cat.201.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.201.jpg",
-            "size": {
-                "width": 399,
-                "height": 309
-            },
-            "state": 2,
-            "type": 1
-        },
-        "93941a47c1f3b2d1916cca301ac77769": {
-            "format": "jpg",
-            "id": "93941a47c1f3b2d1916cca301ac77769",
-            "name": "cat.202.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.202.jpg",
-            "size": {
-                "width": 238,
-                "height": 240
-            },
-            "state": 2,
-            "type": 1
-        },
-        "f1c7dd90636081d5dd70e7ad6a7043db": {
-            "format": "jpg",
-            "id": "f1c7dd90636081d5dd70e7ad6a7043db",
-            "name": "cat.203.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.203.jpg",
-            "size": {
-                "width": 500,
-                "height": 417
-            },
-            "state": 2,
-            "type": 1
-        },
-        "f301cf28cf52da9c23182f99d285405b": {
-            "format": "jpg",
-            "id": "f301cf28cf52da9c23182f99d285405b",
-            "name": "cat.204.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.204.jpg",
-            "size": {
-                "width": 276,
-                "height": 225
-            },
-            "state": 2,
-            "type": 1
-        },
-        "bc097dfdee2845c2b8fe69e1ca84ad6b": {
-            "format": "jpg",
-            "id": "bc097dfdee2845c2b8fe69e1ca84ad6b",
-            "name": "cat.205.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.205.jpg",
-            "size": {
-                "width": 500,
-                "height": 258
-            },
-            "state": 2,
-            "type": 1
-        },
-        "7f47ef96ea810058ab94bceaf63e4502": {
-            "format": "jpg",
-            "id": "7f47ef96ea810058ab94bceaf63e4502",
-            "name": "cat.206.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.206.jpg",
-            "size": {
-                "width": 374,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "610316a8069be100e1da3ca74ce794a8": {
-            "format": "jpg",
-            "id": "610316a8069be100e1da3ca74ce794a8",
-            "name": "cat.207.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.207.jpg",
-            "size": {
-                "width": 380,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4621bfa6dc11de9ccafbb900bda1a6e0": {
-            "format": "jpg",
-            "id": "4621bfa6dc11de9ccafbb900bda1a6e0",
-            "name": "cat.208.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.208.jpg",
-            "size": {
-                "width": 406,
-                "height": 305
-            },
-            "state": 2,
-            "type": 1
-        },
-        "30ad1ddd618cc12e481c8f670bd553b0": {
-            "format": "jpg",
-            "id": "30ad1ddd618cc12e481c8f670bd553b0",
-            "name": "cat.21.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.21.jpg",
-            "size": {
-                "width": 431,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "c1bbcfa43b1a76c31a648c308fbb051d": {
-            "format": "jpg",
-            "id": "c1bbcfa43b1a76c31a648c308fbb051d",
-            "name": "cat.22.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.22.jpg",
-            "size": {
-                "width": 500,
-                "height": 345
-            },
-            "state": 2,
-            "type": 1
-        },
-        "db5304516853a2fcefcd5684e4983d5d": {
-            "format": "jpg",
-            "id": "db5304516853a2fcefcd5684e4983d5d",
-            "name": "cat.24.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.24.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "06e3dce5f0eaf3295cd1ff165d4ba82b": {
-            "format": "jpg",
-            "id": "06e3dce5f0eaf3295cd1ff165d4ba82b",
-            "name": "cat.23.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.23.jpg",
-            "size": {
-                "width": 334,
-                "height": 256
-            },
-            "state": 2,
-            "type": 1
-        },
-        "69894c1339bc6111f19a46b4ab0c11ff": {
-            "format": "jpg",
-            "id": "69894c1339bc6111f19a46b4ab0c11ff",
-            "name": "cat.25.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.25.jpg",
-            "size": {
-                "width": 345,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "94fd6c875cfaff1803b5ed375ba3e6a9": {
-            "format": "jpg",
-            "id": "94fd6c875cfaff1803b5ed375ba3e6a9",
-            "name": "cat.255.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.255.jpg",
-            "size": {
-                "width": 499,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4ab2f4025973ddb847106c5e4ceffa56": {
-            "format": "jpg",
-            "id": "4ab2f4025973ddb847106c5e4ceffa56",
-            "name": "cat.26.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.26.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "320a0b28f6fa4128acc337b01bc3cf7d": {
-            "format": "jpg",
-            "id": "320a0b28f6fa4128acc337b01bc3cf7d",
-            "name": "cat.27.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.27.jpg",
-            "size": {
-                "width": 370,
-                "height": 479
-            },
-            "state": 2,
-            "type": 1
-        },
-        "c3e16863b39431db34dbd7b213917461": {
-            "format": "jpg",
-            "id": "c3e16863b39431db34dbd7b213917461",
-            "name": "cat.28.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.28.jpg",
-            "size": {
-                "width": 286,
-                "height": 270
-            },
-            "state": 2,
-            "type": 1
-        },
-        "c53c4a0697fc4e790c02816cd12e7245": {
-            "format": "jpg",
-            "id": "c53c4a0697fc4e790c02816cd12e7245",
-            "name": "cat.29.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.29.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4b23cdd21b0abff748917936fb3e321d": {
-            "format": "jpg",
-            "id": "4b23cdd21b0abff748917936fb3e321d",
-            "name": "cat.3.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.3.jpg",
-            "size": {
-                "width": 500,
-                "height": 414
-            },
-            "state": 2,
-            "type": 1
-        },
-        "36c394e554397b593a9db5cc4add7a61": {
-            "format": "jpg",
-            "id": "36c394e554397b593a9db5cc4add7a61",
-            "name": "cat.30.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.30.jpg",
-            "size": {
-                "width": 349,
-                "height": 262
-            },
-            "state": 2,
-            "type": 1
-        },
-        "e153f204e546d996572b6e5728554929": {
-            "format": "jpg",
-            "id": "e153f204e546d996572b6e5728554929",
-            "name": "cat.31.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.31.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "6fd638505e39435cbfef980fcb594d47": {
-            "format": "jpg",
-            "id": "6fd638505e39435cbfef980fcb594d47",
-            "name": "cat.32.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.32.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "64b1f286c64070bfd68877a8658c1952": {
-            "format": "jpg",
-            "id": "64b1f286c64070bfd68877a8658c1952",
-            "name": "cat.33.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.33.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "6c1c433db0724c0033dfe2677c689755": {
-            "format": "jpg",
-            "id": "6c1c433db0724c0033dfe2677c689755",
-            "name": "cat.34.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.34.jpg",
-            "size": {
-                "width": 375,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "718dbbb18f4f424c17db55486e86cdbf": {
-            "format": "jpg",
-            "id": "718dbbb18f4f424c17db55486e86cdbf",
-            "name": "cat.35.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.35.jpg",
-            "size": {
-                "width": 499,
-                "height": 426
-            },
-            "state": 2,
-            "type": 1
-        },
-        "925b7ed3578b9c1e1ca1d9269bf99fe5": {
-            "format": "jpg",
-            "id": "925b7ed3578b9c1e1ca1d9269bf99fe5",
-            "name": "cat.36.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.36.jpg",
-            "size": {
-                "width": 500,
-                "height": 311
-            },
-            "state": 2,
-            "type": 1
-        },
-        "23b37580bb83cbb9b8bab2dc21bca739": {
-            "format": "jpg",
-            "id": "23b37580bb83cbb9b8bab2dc21bca739",
-            "name": "cat.37.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.37.jpg",
-            "size": {
-                "width": 499,
-                "height": 337
-            },
-            "state": 2,
-            "type": 1
-        },
-        "d094357f63dbaa5073e206cea51a4011": {
-            "format": "jpg",
-            "id": "d094357f63dbaa5073e206cea51a4011",
-            "name": "cat.38.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.38.jpg",
-            "size": {
-                "width": 350,
-                "height": 337
-            },
-            "state": 2,
-            "type": 1
-        },
-        "97e55e4d9407dd83c4f57da88219692a": {
-            "format": "jpg",
-            "id": "97e55e4d9407dd83c4f57da88219692a",
-            "name": "cat.39.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.39.jpg",
-            "size": {
-                "width": 374,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "b294f8eb70210a22ea4cbde3dc43e891": {
-            "format": "jpg",
-            "id": "b294f8eb70210a22ea4cbde3dc43e891",
-            "name": "cat.4.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.4.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "56b6ce3b2da6b2fa410fcb34261a6443": {
-            "format": "jpg",
-            "id": "56b6ce3b2da6b2fa410fcb34261a6443",
-            "name": "cat.40.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.40.jpg",
-            "size": {
-                "width": 499,
-                "height": 383
-            },
-            "state": 2,
-            "type": 1
-        },
-        "406084dbb56fed26056e429f56013540": {
-            "format": "jpg",
-            "id": "406084dbb56fed26056e429f56013540",
-            "name": "cat.41.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.41.jpg",
-            "size": {
-                "width": 333,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "90ae559e21f3edd5db6efe87ff8f5523": {
-            "format": "jpg",
-            "id": "90ae559e21f3edd5db6efe87ff8f5523",
-            "name": "cat.42.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.42.jpg",
-            "size": {
-                "width": 237,
-                "height": 173
-            },
-            "state": 2,
-            "type": 1
-        },
-        "b5366158eb88d30cc6d35b96b1dc4f49": {
-            "format": "jpg",
-            "id": "b5366158eb88d30cc6d35b96b1dc4f49",
-            "name": "cat.43.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.43.jpg",
-            "size": {
-                "width": 356,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "9f62756b444099f626a0536c8ef4300e": {
-            "format": "jpg",
-            "id": "9f62756b444099f626a0536c8ef4300e",
-            "name": "cat.44.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.44.jpg",
-            "size": {
-                "width": 107,
-                "height": 102
-            },
-            "state": 2,
-            "type": 1
-        },
-        "6330b8835b866440d0cc079ca1a67b4d": {
-            "format": "jpg",
-            "id": "6330b8835b866440d0cc079ca1a67b4d",
-            "name": "cat.45.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.45.jpg",
-            "size": {
-                "width": 500,
-                "height": 370
-            },
-            "state": 2,
-            "type": 1
-        },
-        "056c9e9c6bc093ed9a330a4821814aa0": {
-            "format": "jpg",
-            "id": "056c9e9c6bc093ed9a330a4821814aa0",
-            "name": "cat.46.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.46.jpg",
-            "size": {
-                "width": 400,
-                "height": 433
-            },
-            "state": 2,
-            "type": 1
-        },
-        "526f6f3617296f98fe5aa935c156b7e8": {
-            "format": "jpg",
-            "id": "526f6f3617296f98fe5aa935c156b7e8",
-            "name": "cat.47.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.47.jpg",
-            "size": {
-                "width": 258,
-                "height": 214
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a732cdac869b062cba9f5750dde11f1d": {
-            "format": "jpg",
-            "id": "a732cdac869b062cba9f5750dde11f1d",
-            "name": "cat.48.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.48.jpg",
-            "size": {
-                "width": 139,
-                "height": 93
-            },
-            "state": 2,
-            "type": 1
-        },
-        "ddfa078f516eef532f4ddc8af58fef2f": {
-            "format": "jpg",
-            "id": "ddfa078f516eef532f4ddc8af58fef2f",
-            "name": "cat.49.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.49.jpg",
-            "size": {
-                "width": 180,
-                "height": 129
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a6fc07a3618694f0e49801a7b5336560": {
-            "format": "jpg",
-            "id": "a6fc07a3618694f0e49801a7b5336560",
-            "name": "cat.50.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.50.jpg",
+        "9a1cdc9ee95781bfc5436103a4c1102e": {
+            "format": "jpeg",
+            "id": "9a1cdc9ee95781bfc5436103a4c1102e",
+            "name": "images%20(1).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(1).jpeg",
             "size": {
                 "width": 299,
-                "height": 196
+                "height": 168
             },
             "state": 2,
             "type": 1
         },
-        "f4f0427c90d5a4511aa106582b53f0e0": {
-            "format": "jpg",
-            "id": "f4f0427c90d5a4511aa106582b53f0e0",
-            "name": "cat.51.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.51.jpg",
+        "fd36ab73e1dc12285719a32a11ee34e2": {
+            "format": "jpeg",
+            "id": "fd36ab73e1dc12285719a32a11ee34e2",
+            "name": "images%20(10).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(10).jpeg",
             "size": {
-                "width": 256,
-                "height": 473
+                "width": 264,
+                "height": 191
             },
             "state": 2,
             "type": 1
         },
-        "15d4fdf9eaa4c2884f77cc37a9ca3b19": {
-            "format": "jpg",
-            "id": "15d4fdf9eaa4c2884f77cc37a9ca3b19",
-            "name": "cat.52.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.52.jpg",
+        "0786c25bba0937e3c42842121281e3d9": {
+            "format": "jpeg",
+            "id": "0786c25bba0937e3c42842121281e3d9",
+            "name": "images%20(11).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(11).jpeg",
             "size": {
-                "width": 399,
-                "height": 300
+                "width": 259,
+                "height": 194
             },
             "state": 2,
             "type": 1
         },
-        "bdfdd96e08936015813b5ee2b632d491": {
-            "format": "jpg",
-            "id": "bdfdd96e08936015813b5ee2b632d491",
-            "name": "cat.53.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.53.jpg",
+        "b0e4e9f62ebfe94653ee5539c4fed168": {
+            "format": "jpeg",
+            "id": "b0e4e9f62ebfe94653ee5539c4fed168",
+            "name": "images%20(12).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(12).jpeg",
             "size": {
-                "width": 492,
-                "height": 457
+                "width": 189,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "dfb54b1d34a1c892b65fa276040134e1": {
-            "format": "jpg",
-            "id": "dfb54b1d34a1c892b65fa276040134e1",
-            "name": "cat.54.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.54.jpg",
+        "d7e36d5724480cf770e7f751965ccc07": {
+            "format": "jpeg",
+            "id": "d7e36d5724480cf770e7f751965ccc07",
+            "name": "images%20(13).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(13).jpeg",
             "size": {
-                "width": 500,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "f46b7400a976aeff5b233dbf14d96ce5": {
-            "format": "jpg",
-            "id": "f46b7400a976aeff5b233dbf14d96ce5",
-            "name": "cat.55.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.55.jpg",
-            "size": {
-                "width": 344,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "09343f71e5c10da4ebec1972118bac4e": {
-            "format": "jpg",
-            "id": "09343f71e5c10da4ebec1972118bac4e",
-            "name": "cat.56.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.56.jpg",
-            "size": {
-                "width": 499,
-                "height": 332
-            },
-            "state": 2,
-            "type": 1
-        },
-        "840dda5e78bfe9b89873150311e75c00": {
-            "format": "jpg",
-            "id": "840dda5e78bfe9b89873150311e75c00",
-            "name": "cat.57.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.57.jpg",
-            "size": {
-                "width": 335,
+                "width": 173,
                 "height": 291
             },
             "state": 2,
             "type": 1
         },
-        "f18f5bf7da491fc60227a199f746c8d1": {
-            "format": "jpg",
-            "id": "f18f5bf7da491fc60227a199f746c8d1",
-            "name": "cat.58.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.58.jpg",
+        "a6e2e6c56539a6e02bc673db3f57d90e": {
+            "format": "jpeg",
+            "id": "a6e2e6c56539a6e02bc673db3f57d90e",
+            "name": "images%20(14).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(14).jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 265,
+                "height": 190
             },
             "state": 2,
             "type": 1
         },
-        "61ebe48d2b796295836dd27c4e8449e6": {
-            "format": "jpg",
-            "id": "61ebe48d2b796295836dd27c4e8449e6",
-            "name": "cat.59.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.59.jpg",
+        "3f29419f10dd068421d1a00b2ea09f87": {
+            "format": "jpeg",
+            "id": "3f29419f10dd068421d1a00b2ea09f87",
+            "name": "images%20(15).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(15).jpeg",
             "size": {
-                "width": 464,
-                "height": 331
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "57d41c556a47c3cb78bae3adca916708": {
-            "format": "jpg",
-            "id": "57d41c556a47c3cb78bae3adca916708",
-            "name": "cat.60.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.60.jpg",
+        "c72e464b2280e70af273559843283916": {
+            "format": "jpeg",
+            "id": "c72e464b2280e70af273559843283916",
+            "name": "images%20(16).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(16).jpeg",
             "size": {
-                "width": 180,
-                "height": 176
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "a349b5487de364d8b2d64699e4b96ee9": {
-            "format": "jpg",
-            "id": "a349b5487de364d8b2d64699e4b96ee9",
-            "name": "cat.61.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.61.jpg",
+        "829df416ece3b1aa3debe75d6b348249": {
+            "format": "jpeg",
+            "id": "829df416ece3b1aa3debe75d6b348249",
+            "name": "images%20(17).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(17).jpeg",
             "size": {
-                "width": 328,
-                "height": 226
+                "width": 259,
+                "height": 194
             },
             "state": 2,
             "type": 1
         },
-        "9ac563a14af3ae918b996ef5eb534c1b": {
-            "format": "jpg",
-            "id": "9ac563a14af3ae918b996ef5eb534c1b",
-            "name": "cat.62.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.62.jpg",
+        "d5108a9bb2ab6ac9152e98edad483aff": {
+            "format": "jpeg",
+            "id": "d5108a9bb2ab6ac9152e98edad483aff",
+            "name": "images%20(18).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(18).jpeg",
             "size": {
-                "width": 500,
-                "height": 377
+                "width": 300,
+                "height": 168
             },
             "state": 2,
             "type": 1
         },
-        "f8490919441233a1a80fe7aaeb8b0d13": {
-            "format": "jpg",
-            "id": "f8490919441233a1a80fe7aaeb8b0d13",
-            "name": "cat.63.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.63.jpg",
+        "0c4a75df10f7a17e370e4c3192961558": {
+            "format": "jpeg",
+            "id": "0c4a75df10f7a17e370e4c3192961558",
+            "name": "images%20(19).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(19).jpeg",
             "size": {
-                "width": 500,
-                "height": 374
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "63bfd2e7949da7a09067dc2501cf82a8": {
-            "format": "jpg",
-            "id": "63bfd2e7949da7a09067dc2501cf82a8",
-            "name": "cat.64.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.64.jpg",
+        "b9d66c851aa274337f989fd901828fc5": {
+            "format": "jpeg",
+            "id": "b9d66c851aa274337f989fd901828fc5",
+            "name": "images%20(2).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(2).jpeg",
             "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a9b07d756e2f28cafb011779704e1b3f": {
-            "format": "jpg",
-            "id": "a9b07d756e2f28cafb011779704e1b3f",
-            "name": "cat.65.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.65.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "d25b708488a03d643a324c51ae569420": {
-            "format": "jpg",
-            "id": "d25b708488a03d643a324c51ae569420",
-            "name": "cat.66.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.66.jpg",
-            "size": {
-                "width": 499,
-                "height": 382
-            },
-            "state": 2,
-            "type": 1
-        },
-        "59119ff022e8f550e8989c1ff857b499": {
-            "format": "jpg",
-            "id": "59119ff022e8f550e8989c1ff857b499",
-            "name": "cat.67.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.67.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "1bc6862945de19a80cd57a182fc6795f": {
-            "format": "jpg",
-            "id": "1bc6862945de19a80cd57a182fc6795f",
-            "name": "cat.68.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.68.jpg",
-            "size": {
-                "width": 249,
-                "height": 181
-            },
-            "state": 2,
-            "type": 1
-        },
-        "dc1209fe23ae210f4be2fdc7bea8f29f": {
-            "format": "jpg",
-            "id": "dc1209fe23ae210f4be2fdc7bea8f29f",
-            "name": "cat.69.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.69.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "939c99f79f9518c997780d460e8d8616": {
-            "format": "jpg",
-            "id": "939c99f79f9518c997780d460e8d8616",
-            "name": "cat.70.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.70.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "74984ad800b984eac4ebe15980f6a530": {
-            "format": "jpg",
-            "id": "74984ad800b984eac4ebe15980f6a530",
-            "name": "cat.71.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.71.jpg",
-            "size": {
-                "width": 499,
-                "height": 417
-            },
-            "state": 2,
-            "type": 1
-        },
-        "8fa58a6ad77af46f3b1fe7ae2914cf0d": {
-            "format": "jpg",
-            "id": "8fa58a6ad77af46f3b1fe7ae2914cf0d",
-            "name": "cat.72.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.72.jpg",
-            "size": {
-                "width": 480,
-                "height": 332
-            },
-            "state": 2,
-            "type": 1
-        },
-        "906929ef1e9548f840767d54e500dc14": {
-            "format": "jpg",
-            "id": "906929ef1e9548f840767d54e500dc14",
-            "name": "cat.73.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.73.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "574ac708217ce5b6622e809dd7390f29": {
-            "format": "jpg",
-            "id": "574ac708217ce5b6622e809dd7390f29",
-            "name": "cat.74.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.74.jpg",
-            "size": {
-                "width": 200,
-                "height": 186
-            },
-            "state": 2,
-            "type": 1
-        },
-        "2c6f1432b06fc4d331a52692129e99e2": {
-            "format": "jpg",
-            "id": "2c6f1432b06fc4d331a52692129e99e2",
-            "name": "cat.75.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.75.jpg",
-            "size": {
-                "width": 495,
-                "height": 396
-            },
-            "state": 2,
-            "type": 1
-        },
-        "021b203dcb8ffb5c3d68043a313a7abf": {
-            "format": "jpg",
-            "id": "021b203dcb8ffb5c3d68043a313a7abf",
-            "name": "cat.76.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.76.jpg",
-            "size": {
-                "width": 499,
-                "height": 258
-            },
-            "state": 2,
-            "type": 1
-        },
-        "46a4f5dd5ca9bffca2eaefc764009bfd": {
-            "format": "jpg",
-            "id": "46a4f5dd5ca9bffca2eaefc764009bfd",
-            "name": "cat.77.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.77.jpg",
-            "size": {
-                "width": 350,
-                "height": 232
-            },
-            "state": 2,
-            "type": 1
-        },
-        "76bc7e45419054d40703bfd1a2659aca": {
-            "format": "jpg",
-            "id": "76bc7e45419054d40703bfd1a2659aca",
-            "name": "cat.78.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.78.jpg",
-            "size": {
-                "width": 499,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "8343a1bf78f7f8fcd759f759ef1b7254": {
-            "format": "jpg",
-            "id": "8343a1bf78f7f8fcd759f759ef1b7254",
-            "name": "cat.79.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.79.jpg",
-            "size": {
-                "width": 499,
-                "height": 346
-            },
-            "state": 2,
-            "type": 1
-        },
-        "7a19a943024f9cb69089522265f54f6a": {
-            "format": "jpg",
-            "id": "7a19a943024f9cb69089522265f54f6a",
-            "name": "cat.80.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.80.jpg",
-            "size": {
-                "width": 319,
-                "height": 234
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a8cb55e7e518640620e6069be2c2a984": {
-            "format": "jpg",
-            "id": "a8cb55e7e518640620e6069be2c2a984",
-            "name": "cat.81.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.81.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "d58335a49d2915ddce72be73c26062c9": {
-            "format": "jpg",
-            "id": "d58335a49d2915ddce72be73c26062c9",
-            "name": "cat.82.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.82.jpg",
-            "size": {
-                "width": 500,
-                "height": 332
-            },
-            "state": 2,
-            "type": 1
-        },
-        "1d085a79aafeaf9721ab8f26ac383e7f": {
-            "format": "jpg",
-            "id": "1d085a79aafeaf9721ab8f26ac383e7f",
-            "name": "cat.83.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.83.jpg",
-            "size": {
-                "width": 498,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "bdc4a5c78c3aacd66467005bd0879b51": {
-            "format": "jpg",
-            "id": "bdc4a5c78c3aacd66467005bd0879b51",
-            "name": "cat.84.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.84.jpg",
-            "size": {
-                "width": 426,
-                "height": 286
-            },
-            "state": 2,
-            "type": 1
-        },
-        "541106d5c37c995de70796b654265cde": {
-            "format": "jpg",
-            "id": "541106d5c37c995de70796b654265cde",
-            "name": "cat.85.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.85.jpg",
-            "size": {
-                "width": 447,
-                "height": 336
-            },
-            "state": 2,
-            "type": 1
-        },
-        "bab7e003a092b5118db20a10c194404c": {
-            "format": "jpg",
-            "id": "bab7e003a092b5118db20a10c194404c",
-            "name": "cat.86.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.86.jpg",
-            "size": {
-                "width": 499,
-                "height": 493
-            },
-            "state": 2,
-            "type": 1
-        },
-        "d8db63b2f471c3b26245718defd63383": {
-            "format": "jpg",
-            "id": "d8db63b2f471c3b26245718defd63383",
-            "name": "cat.87.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.87.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "763573080a17d4f9864532ee483c47c6": {
-            "format": "jpg",
-            "id": "763573080a17d4f9864532ee483c47c6",
-            "name": "cat.88.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/cat.88.jpg",
-            "size": {
-                "width": 399,
-                "height": 267
-            },
-            "state": 2,
-            "type": 1
-        },
-        "e88ee48d479b3402d5b3a02072ab55c4": {
-            "format": "jpg",
-            "id": "e88ee48d479b3402d5b3a02072ab55c4",
-            "name": "dog.1.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.1.jpg",
-            "size": {
-                "width": 327,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "adca1b19d0f8cd3c17657bf327cb5ebd": {
-            "format": "jpg",
-            "id": "adca1b19d0f8cd3c17657bf327cb5ebd",
-            "name": "dog.100.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.100.jpg",
-            "size": {
-                "width": 500,
-                "height": 397
-            },
-            "state": 2,
-            "type": 1
-        },
-        "8271a197f8cb487209491f622bf899bd": {
-            "format": "jpg",
-            "id": "8271a197f8cb487209491f622bf899bd",
-            "name": "dog.101.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.101.jpg",
-            "size": {
-                "width": 440,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "e8de7c0265ab4105524e6ad2d1246f24": {
-            "format": "jpg",
-            "id": "e8de7c0265ab4105524e6ad2d1246f24",
-            "name": "dog.102.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.102.jpg",
-            "size": {
-                "width": 499,
-                "height": 373
-            },
-            "state": 2,
-            "type": 1
-        },
-        "e2b501031a8ce7696a18e03bb6286747": {
-            "format": "jpg",
-            "id": "e2b501031a8ce7696a18e03bb6286747",
-            "name": "dog.104.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.104.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "40399b9b59733673e957adf251dabf77": {
-            "format": "jpg",
-            "id": "40399b9b59733673e957adf251dabf77",
-            "name": "dog.105.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.105.jpg",
-            "size": {
-                "width": 170,
-                "height": 221
-            },
-            "state": 2,
-            "type": 1
-        },
-        "b868ef5e19171d912229d0f85bf0a798": {
-            "format": "jpg",
-            "id": "b868ef5e19171d912229d0f85bf0a798",
-            "name": "dog.106.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.106.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "470642827941b769582c1dc12a212c04": {
-            "format": "jpg",
-            "id": "470642827941b769582c1dc12a212c04",
-            "name": "dog.107.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.107.jpg",
-            "size": {
-                "width": 499,
-                "height": 458
-            },
-            "state": 2,
-            "type": 1
-        },
-        "fa75dad28fa6eca8ff1f7805e00f6ff9": {
-            "format": "jpg",
-            "id": "fa75dad28fa6eca8ff1f7805e00f6ff9",
-            "name": "dog.109.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.109.jpg",
-            "size": {
-                "width": 439,
-                "height": 268
-            },
-            "state": 2,
-            "type": 1
-        },
-        "74598aeb8a7ce26466b8d1e0d75ec297": {
-            "format": "jpg",
-            "id": "74598aeb8a7ce26466b8d1e0d75ec297",
-            "name": "dog.11.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.11.jpg",
-            "size": {
-                "width": 135,
-                "height": 101
-            },
-            "state": 2,
-            "type": 1
-        },
-        "0762570bd5fb42bdc1b12885b90e961e": {
-            "format": "jpg",
-            "id": "0762570bd5fb42bdc1b12885b90e961e",
-            "name": "dog.110.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.110.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "8eee1237b0bf8e2da3fbd8598360486f": {
-            "format": "jpg",
-            "id": "8eee1237b0bf8e2da3fbd8598360486f",
-            "name": "dog.111.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.111.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "8df45411b39b94c44d2abaa7def0adcd": {
-            "format": "jpg",
-            "id": "8df45411b39b94c44d2abaa7def0adcd",
-            "name": "dog.112.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.112.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "e528e4dc33c2b68531f0152c4a18b914": {
-            "format": "jpg",
-            "id": "e528e4dc33c2b68531f0152c4a18b914",
-            "name": "dog.114.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.114.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "b50cb4b3ac2cfe5e254d75e203cbbfec": {
-            "format": "jpg",
-            "id": "b50cb4b3ac2cfe5e254d75e203cbbfec",
-            "name": "dog.115.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.115.jpg",
-            "size": {
-                "width": 389,
-                "height": 499
-            },
-            "state": 2,
-            "type": 1
-        },
-        "f26e209638b0b901979f2582d23a3f03": {
-            "format": "jpg",
-            "id": "f26e209638b0b901979f2582d23a3f03",
-            "name": "dog.116.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.116.jpg",
-            "size": {
-                "width": 288,
-                "height": 345
-            },
-            "state": 2,
-            "type": 1
-        },
-        "38bcecb9c03a009d5429c35d422419bd": {
-            "format": "jpg",
-            "id": "38bcecb9c03a009d5429c35d422419bd",
-            "name": "dog.117.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.117.jpg",
-            "size": {
-                "width": 500,
-                "height": 427
-            },
-            "state": 2,
-            "type": 1
-        },
-        "6900174b865a09c4d49dec81773dbeef": {
-            "format": "jpg",
-            "id": "6900174b865a09c4d49dec81773dbeef",
-            "name": "dog.119.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.119.jpg",
-            "size": {
-                "width": 280,
-                "height": 400
-            },
-            "state": 2,
-            "type": 1
-        },
-        "988194e3cd07d781723d4d8a9ee9b88b": {
-            "format": "jpg",
-            "id": "988194e3cd07d781723d4d8a9ee9b88b",
-            "name": "dog.12.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.12.jpg",
-            "size": {
-                "width": 98,
-                "height": 161
-            },
-            "state": 2,
-            "type": 1
-        },
-        "c50faaa848df1b8ec3131881c51eefb7": {
-            "format": "jpg",
-            "id": "c50faaa848df1b8ec3131881c51eefb7",
-            "name": "dog.120.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.120.jpg",
-            "size": {
-                "width": 448,
-                "height": 500
-            },
-            "state": 2,
-            "type": 1
-        },
-        "a5eac4180145158bea93d9e13f21faba": {
-            "format": "jpg",
-            "id": "a5eac4180145158bea93d9e13f21faba",
-            "name": "dog.121.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.121.jpg",
-            "size": {
-                "width": 500,
-                "height": 334
-            },
-            "state": 2,
-            "type": 1
-        },
-        "ca209a6f70a3ecdf636df518271abce6": {
-            "format": "jpg",
-            "id": "ca209a6f70a3ecdf636df518271abce6",
-            "name": "dog.122.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.122.jpg",
-            "size": {
-                "width": 350,
-                "height": 262
-            },
-            "state": 2,
-            "type": 1
-        },
-        "929d3eebd5c87bc382183719aff49fc6": {
-            "format": "jpg",
-            "id": "929d3eebd5c87bc382183719aff49fc6",
-            "name": "dog.13.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.13.jpg",
-            "size": {
-                "width": 362,
-                "height": 428
-            },
-            "state": 2,
-            "type": 1
-        },
-        "245454e746f5ad51e9c18e3a81329df0": {
-            "format": "jpg",
-            "id": "245454e746f5ad51e9c18e3a81329df0",
-            "name": "dog.14.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.14.jpg",
-            "size": {
-                "width": 500,
-                "height": 386
-            },
-            "state": 2,
-            "type": 1
-        },
-        "b0564dc179d48b96b1b3a3f860ab3cd8": {
-            "format": "jpg",
-            "id": "b0564dc179d48b96b1b3a3f860ab3cd8",
-            "name": "dog.16.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.16.jpg",
-            "size": {
-                "width": 500,
-                "height": 380
-            },
-            "state": 2,
-            "type": 1
-        },
-        "66f9c9b841543f4ac07f937f47122685": {
-            "format": "jpg",
-            "id": "66f9c9b841543f4ac07f937f47122685",
-            "name": "dog.17.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.17.jpg",
-            "size": {
-                "width": 272,
-                "height": 335
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4e9785adfdb2620f8f3e98a303eb1e74": {
-            "format": "jpg",
-            "id": "4e9785adfdb2620f8f3e98a303eb1e74",
-            "name": "dog.18.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.18.jpg",
-            "size": {
-                "width": 215,
-                "height": 348
-            },
-            "state": 2,
-            "type": 1
-        },
-        "24c3809c351a5fcbd51b6e931245fcc0": {
-            "format": "jpg",
-            "id": "24c3809c351a5fcbd51b6e931245fcc0",
-            "name": "dog.19.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.19.jpg",
-            "size": {
-                "width": 299,
+                "width": 225,
                 "height": 225
             },
             "state": 2,
             "type": 1
         },
-        "bd95670892aee47f3340802171a9a479": {
-            "format": "jpg",
-            "id": "bd95670892aee47f3340802171a9a479",
-            "name": "dog.2.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.2.jpg",
+        "9379e170a5affb14127846ccb2611338": {
+            "format": "jpeg",
+            "id": "9379e170a5affb14127846ccb2611338",
+            "name": "images%20(20).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(20).jpeg",
             "size": {
-                "width": 187,
-                "height": 199
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "15406c188c3bfde2e51ddceabd844659": {
-            "format": "jpg",
-            "id": "15406c188c3bfde2e51ddceabd844659",
-            "name": "dog.21.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.21.jpg",
+        "7461e1444b29218e1eeb0e44c60c0492": {
+            "format": "jpeg",
+            "id": "7461e1444b29218e1eeb0e44c60c0492",
+            "name": "images%20(21).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(21).jpeg",
             "size": {
-                "width": 415,
-                "height": 499
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "9f4d1543b2c89558e9b4b49e33e1dccc": {
-            "format": "jpg",
-            "id": "9f4d1543b2c89558e9b4b49e33e1dccc",
-            "name": "dog.22.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.22.jpg",
+        "346fd454ba73c650ff486087722a435f": {
+            "format": "jpeg",
+            "id": "346fd454ba73c650ff486087722a435f",
+            "name": "images%20(22).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(22).jpeg",
             "size": {
-                "width": 499,
-                "height": 371
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "a0704f81153f6d47c2f048e8c03136f4": {
-            "format": "jpg",
-            "id": "a0704f81153f6d47c2f048e8c03136f4",
-            "name": "dog.23.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.23.jpg",
+        "7e870d7d1711d12292d842a91aa7a53c": {
+            "format": "jpeg",
+            "id": "7e870d7d1711d12292d842a91aa7a53c",
+            "name": "images%20(23).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(23).jpeg",
             "size": {
-                "width": 499,
-                "height": 403
+                "width": 161,
+                "height": 313
             },
             "state": 2,
             "type": 1
         },
-        "eaca54421ca69454fc6c6f2feee1795c": {
-            "format": "jpg",
-            "id": "eaca54421ca69454fc6c6f2feee1795c",
-            "name": "dog.24.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.24.jpg",
+        "9137a6ae66d24a455986f7e74ca065f5": {
+            "format": "jpeg",
+            "id": "9137a6ae66d24a455986f7e74ca065f5",
+            "name": "images%20(24).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(24).jpeg",
             "size": {
-                "width": 274,
-                "height": 500
+                "width": 275,
+                "height": 183
             },
             "state": 2,
             "type": 1
         },
-        "87f11ddb4e63238561f25c6b831ba848": {
-            "format": "jpg",
-            "id": "87f11ddb4e63238561f25c6b831ba848",
-            "name": "dog.26.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.26.jpg",
+        "12c984d1e0c3787a8cc153afd4d711ea": {
+            "format": "jpeg",
+            "id": "12c984d1e0c3787a8cc153afd4d711ea",
+            "name": "images%20(25).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(25).jpeg",
+            "size": {
+                "width": 265,
+                "height": 190
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66daad6254844c73093243b43f3b361d": {
+            "format": "jpeg",
+            "id": "66daad6254844c73093243b43f3b361d",
+            "name": "images%20(26).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(26).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "49a863ce8dc05c223d0c2d91c39611b4": {
+            "format": "jpeg",
+            "id": "49a863ce8dc05c223d0c2d91c39611b4",
+            "name": "images%20(27).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(27).jpeg",
+            "size": {
+                "width": 267,
+                "height": 188
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9c17f8b1e1c47eda81ad4f1e9a6c5aa": {
+            "format": "jpeg",
+            "id": "d9c17f8b1e1c47eda81ad4f1e9a6c5aa",
+            "name": "images%20(28).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(28).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0ae28016c123f8f51c92ddec92795c22": {
+            "format": "jpeg",
+            "id": "0ae28016c123f8f51c92ddec92795c22",
+            "name": "images%20(3).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(3).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "16b88a5433c0ea23288b48e85f66763e": {
+            "format": "jpeg",
+            "id": "16b88a5433c0ea23288b48e85f66763e",
+            "name": "images%20(29).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(29).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d10619eb163c7542b9c3c813ef0f0edb": {
+            "format": "jpeg",
+            "id": "d10619eb163c7542b9c3c813ef0f0edb",
+            "name": "images%20(30).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(30).jpeg",
+            "size": {
+                "width": 259,
+                "height": 194
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3aba9bd7e6ea2cf9aff5bdaf8d89ef2a": {
+            "format": "jpeg",
+            "id": "3aba9bd7e6ea2cf9aff5bdaf8d89ef2a",
+            "name": "images%20(31).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(31).jpeg",
+            "size": {
+                "width": 190,
+                "height": 265
+            },
+            "state": 2,
+            "type": 1
+        },
+        "922f11f56375ceb0c0cd5b84b91f2e30": {
+            "format": "jpeg",
+            "id": "922f11f56375ceb0c0cd5b84b91f2e30",
+            "name": "images%20(32).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(32).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f73a07fc31af4a437d5a95df600ce3d9": {
+            "format": "jpeg",
+            "id": "f73a07fc31af4a437d5a95df600ce3d9",
+            "name": "images%20(33).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(33).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83c7d37bdd21637c09fa3195542f77dd": {
+            "format": "jpeg",
+            "id": "83c7d37bdd21637c09fa3195542f77dd",
+            "name": "images%20(34).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(34).jpeg",
+            "size": {
+                "width": 265,
+                "height": 190
+            },
+            "state": 2,
+            "type": 1
+        },
+        "445b60c4af8bc8a16e2c3c25c39df64d": {
+            "format": "jpeg",
+            "id": "445b60c4af8bc8a16e2c3c25c39df64d",
+            "name": "images%20(35).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(35).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b255f02a8cca2933fbd71ed7a74a92e4": {
+            "format": "jpeg",
+            "id": "b255f02a8cca2933fbd71ed7a74a92e4",
+            "name": "images%20(36).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(36).jpeg",
+            "size": {
+                "width": 265,
+                "height": 190
+            },
+            "state": 2,
+            "type": 1
+        },
+        "91da5033ab6b07966307b64a3aa04bb5": {
+            "format": "jpeg",
+            "id": "91da5033ab6b07966307b64a3aa04bb5",
+            "name": "images%20(6).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(6).jpeg",
+            "size": {
+                "width": 286,
+                "height": 176
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5ad9939dccdf54edd5c32405c50e1ca": {
+            "format": "jpeg",
+            "id": "c5ad9939dccdf54edd5c32405c50e1ca",
+            "name": "images%20(7).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(7).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37a6f5ed71a6b4dfd43585a669e942b7": {
+            "format": "jpeg",
+            "id": "37a6f5ed71a6b4dfd43585a669e942b7",
+            "name": "images%20(8).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(8).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56a998fc14a22a60b436df396ff82338": {
+            "format": "jpeg",
+            "id": "56a998fc14a22a60b436df396ff82338",
+            "name": "images%20(9).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images%20(9).jpeg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd4a4e9f1c48bba9c29422390f3cb2c8": {
+            "format": "jpeg",
+            "id": "cd4a4e9f1c48bba9c29422390f3cb2c8",
+            "name": "images.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/images.jpeg",
             "size": {
                 "width": 300,
-                "height": 224
+                "height": 168
             },
             "state": 2,
             "type": 1
         },
-        "6d2be9acd735608ac5e8ddcdf601e105": {
-            "format": "jpg",
-            "id": "6d2be9acd735608ac5e8ddcdf601e105",
-            "name": "dog.27.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.27.jpg",
+        "4f8d122b48844f53ff1d0e1c51dcc560": {
+            "format": "jpeg",
+            "id": "4f8d122b48844f53ff1d0e1c51dcc560",
+            "name": "pc.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc.jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "0abcf027efc6b5ffb996a30921c8dc7b": {
-            "format": "jpg",
-            "id": "0abcf027efc6b5ffb996a30921c8dc7b",
-            "name": "dog.28.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.28.jpg",
+        "058a4a4284b0486c2cf4e0ba396be640": {
+            "format": "jpeg",
+            "id": "058a4a4284b0486c2cf4e0ba396be640",
+            "name": "pc10.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc10.jpeg",
             "size": {
-                "width": 287,
-                "height": 432
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "fe748dcce0a7183aee63b00559d56617": {
-            "format": "jpg",
-            "id": "fe748dcce0a7183aee63b00559d56617",
-            "name": "dog.29.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.29.jpg",
+        "5e9eddd466d38f7a1a7e9bd5224fb77a": {
+            "format": "jpeg",
+            "id": "5e9eddd466d38f7a1a7e9bd5224fb77a",
+            "name": "pc11.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc11.jpeg",
             "size": {
-                "width": 500,
-                "height": 376
+                "width": 474,
+                "height": 315
             },
             "state": 2,
             "type": 1
         },
-        "0d6ac1d2f3c9f5290ac2cd47fd5c10b2": {
-            "format": "jpg",
-            "id": "0d6ac1d2f3c9f5290ac2cd47fd5c10b2",
-            "name": "dog.3.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.3.jpg",
+        "5b0c4ea458cbb49dc3ba67d9fa3d12d5": {
+            "format": "jpeg",
+            "id": "5b0c4ea458cbb49dc3ba67d9fa3d12d5",
+            "name": "pc12.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc12.jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 379
             },
             "state": 2,
             "type": 1
         },
-        "47a0219ee5df4237bc51ee62c7076f30": {
-            "format": "jpg",
-            "id": "47a0219ee5df4237bc51ee62c7076f30",
-            "name": "dog.31.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.31.jpg",
+        "136ec6f131976f62ae8fece4a6676abe": {
+            "format": "jpeg",
+            "id": "136ec6f131976f62ae8fece4a6676abe",
+            "name": "pc13.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc13.jpeg",
             "size": {
-                "width": 297,
-                "height": 500
+                "width": 474,
+                "height": 316
             },
             "state": 2,
             "type": 1
         },
-        "d63a3ad0c778b506d75ffccbeff01b5d": {
-            "format": "jpg",
-            "id": "d63a3ad0c778b506d75ffccbeff01b5d",
-            "name": "dog.32.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.32.jpg",
+        "5b867ac09ce3c1dc61dae1bd04a2a2f8": {
+            "format": "jpeg",
+            "id": "5b867ac09ce3c1dc61dae1bd04a2a2f8",
+            "name": "pc14.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc14.jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "83a9eba8afaf893fb1599085fd49c77d": {
-            "format": "jpg",
-            "id": "83a9eba8afaf893fb1599085fd49c77d",
-            "name": "dog.33.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.33.jpg",
+        "99e1db7c70bb7f1e6dd97a0b0cabc3f4": {
+            "format": "jpeg",
+            "id": "99e1db7c70bb7f1e6dd97a0b0cabc3f4",
+            "name": "pc15.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc15.jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "5c9854300b8447640c10395eac535861": {
-            "format": "jpg",
-            "id": "5c9854300b8447640c10395eac535861",
-            "name": "dog.34.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.34.jpg",
+        "72d968648134ec59c37e6c66f61cf99f": {
+            "format": "jpeg",
+            "id": "72d968648134ec59c37e6c66f61cf99f",
+            "name": "pc16.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc16.jpeg",
             "size": {
-                "width": 500,
-                "height": 374
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "53364246f8964e34182ab1d38debc0d6": {
-            "format": "jpg",
-            "id": "53364246f8964e34182ab1d38debc0d6",
-            "name": "dog.36.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.36.jpg",
+        "916358733be170423d26df9f9dafca02": {
+            "format": "jpeg",
+            "id": "916358733be170423d26df9f9dafca02",
+            "name": "pc17.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc17.jpeg",
             "size": {
-                "width": 319,
-                "height": 240
+                "width": 474,
+                "height": 250
             },
             "state": 2,
             "type": 1
         },
-        "3183b96cba169a21609f015ad2c45577": {
-            "format": "jpg",
-            "id": "3183b96cba169a21609f015ad2c45577",
-            "name": "dog.37.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.37.jpg",
+        "586c3b4fdb99ecd95404a5e7c13d096f": {
+            "format": "jpeg",
+            "id": "586c3b4fdb99ecd95404a5e7c13d096f",
+            "name": "pc18.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc18.jpeg",
             "size": {
-                "width": 400,
-                "height": 371
+                "width": 474,
+                "height": 316
             },
             "state": 2,
             "type": 1
         },
-        "0a6a876412b2e24f41a9e9eb62ef507f": {
-            "format": "jpg",
-            "id": "0a6a876412b2e24f41a9e9eb62ef507f",
-            "name": "dog.38.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.38.jpg",
+        "39595a963051a89b4e1917781de79314": {
+            "format": "jpeg",
+            "id": "39595a963051a89b4e1917781de79314",
+            "name": "pc19.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc19.jpeg",
             "size": {
-                "width": 499,
-                "height": 374
+                "width": 474,
+                "height": 291
             },
             "state": 2,
             "type": 1
         },
-        "28a2cd15e7548113a4e14d9aa144b224": {
-            "format": "jpg",
-            "id": "28a2cd15e7548113a4e14d9aa144b224",
-            "name": "dog.39.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.39.jpg",
+        "f77cab9ebfe8ad6a6b3256be605041b6": {
+            "format": "jpeg",
+            "id": "f77cab9ebfe8ad6a6b3256be605041b6",
+            "name": "pc2.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc2.jpeg",
             "size": {
-                "width": 324,
-                "height": 356
+                "width": 474,
+                "height": 296
             },
             "state": 2,
             "type": 1
         },
-        "5db5b8be2ea697ca57e7f436f5d33fe3": {
-            "format": "jpg",
-            "id": "5db5b8be2ea697ca57e7f436f5d33fe3",
-            "name": "dog.4.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.4.jpg",
+        "c9c1aeb15b3f32e27e9cdcf1fd5e31a7": {
+            "format": "jpeg",
+            "id": "c9c1aeb15b3f32e27e9cdcf1fd5e31a7",
+            "name": "pc20.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc20.jpeg",
             "size": {
-                "width": 300,
-                "height": 287
+                "width": 474,
+                "height": 461
             },
             "state": 2,
             "type": 1
         },
-        "60e76e27782fcd3572616804415888b9": {
-            "format": "jpg",
-            "id": "60e76e27782fcd3572616804415888b9",
-            "name": "dog.41.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.41.jpg",
+        "2c180cf7aa0fb55be8d4fa404202a334": {
+            "format": "jpeg",
+            "id": "2c180cf7aa0fb55be8d4fa404202a334",
+            "name": "pc21.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc21.jpeg",
             "size": {
-                "width": 319,
-                "height": 240
+                "width": 474,
+                "height": 712
             },
             "state": 2,
             "type": 1
         },
-        "8794800cdaa98b4d0063a004752b56f1": {
-            "format": "jpg",
-            "id": "8794800cdaa98b4d0063a004752b56f1",
-            "name": "dog.42.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.42.jpg",
+        "1fd416163b8c2861883b5aa81ca985c0": {
+            "format": "jpeg",
+            "id": "1fd416163b8c2861883b5aa81ca985c0",
+            "name": "pc22.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc22.jpeg",
             "size": {
-                "width": 500,
-                "height": 374
+                "width": 474,
+                "height": 315
             },
             "state": 2,
             "type": 1
         },
-        "9618f737aed6f9e1232e1d05ebdfe64e": {
-            "format": "jpg",
-            "id": "9618f737aed6f9e1232e1d05ebdfe64e",
-            "name": "dog.43.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.43.jpg",
+        "5443b43942acff859ba4095960da7c8a": {
+            "format": "jpeg",
+            "id": "5443b43942acff859ba4095960da7c8a",
+            "name": "pc23.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc23.jpeg",
             "size": {
-                "width": 375,
-                "height": 249
-            },
-            "state": 2,
-            "type": 1
-        },
-        "24d1e6ec6dceeb6327e62043b37e9789": {
-            "format": "jpg",
-            "id": "24d1e6ec6dceeb6327e62043b37e9789",
-            "name": "dog.44.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.44.jpg",
-            "size": {
-                "width": 499,
-                "height": 375
-            },
-            "state": 2,
-            "type": 1
-        },
-        "7fbc41cfd80b278014b7fb0aa0ce0597": {
-            "format": "jpg",
-            "id": "7fbc41cfd80b278014b7fb0aa0ce0597",
-            "name": "dog.46.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.46.jpg",
-            "size": {
-                "width": 243,
-                "height": 299
-            },
-            "state": 2,
-            "type": 1
-        },
-        "4f5aaba35dcdc625b5174b90800457ae": {
-            "format": "jpg",
-            "id": "4f5aaba35dcdc625b5174b90800457ae",
-            "name": "dog.47.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.47.jpg",
-            "size": {
-                "width": 500,
+                "width": 474,
                 "height": 477
             },
             "state": 2,
             "type": 1
         },
-        "8bc9ddea621bcd40f171062162227f7e": {
-            "format": "jpg",
-            "id": "8bc9ddea621bcd40f171062162227f7e",
-            "name": "dog.48.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.48.jpg",
+        "7b3c043d069a7f55e7ed640d7dfb837c": {
+            "format": "jpeg",
+            "id": "7b3c043d069a7f55e7ed640d7dfb837c",
+            "name": "pc24.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc24.jpeg",
             "size": {
-                "width": 480,
-                "height": 360
+                "width": 474,
+                "height": 380
             },
             "state": 2,
             "type": 1
         },
-        "240010c38f150306aa6852af483fda96": {
-            "format": "jpg",
-            "id": "240010c38f150306aa6852af483fda96",
-            "name": "dog.49.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.49.jpg",
+        "837a8c4f8603a30a619b64fa223f521a": {
+            "format": "jpeg",
+            "id": "837a8c4f8603a30a619b64fa223f521a",
+            "name": "pc25.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc25.jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 316
             },
             "state": 2,
             "type": 1
         },
-        "e58ac968fd2f88f99104bfe54a19881b": {
-            "format": "jpg",
-            "id": "e58ac968fd2f88f99104bfe54a19881b",
-            "name": "dog.51.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.51.jpg",
+        "fc09cc39b3c39811f04d895f7a6f6f84": {
+            "format": "jpeg",
+            "id": "fc09cc39b3c39811f04d895f7a6f6f84",
+            "name": "pc26.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc26.jpeg",
             "size": {
-                "width": 433,
-                "height": 500
+                "width": 474,
+                "height": 307
             },
             "state": 2,
             "type": 1
         },
-        "666efdaacf7a84b4261b704a8be7ef97": {
-            "format": "jpg",
-            "id": "666efdaacf7a84b4261b704a8be7ef97",
-            "name": "dog.52.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.52.jpg",
+        "3f118b75df7096f4f2d37c991180c683": {
+            "format": "jpeg",
+            "id": "3f118b75df7096f4f2d37c991180c683",
+            "name": "pc27.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc27.jpeg",
             "size": {
-                "width": 499,
-                "height": 377
+                "width": 474,
+                "height": 348
             },
             "state": 2,
             "type": 1
         },
-        "ca80a7543d3478d9a3044121311d6b3e": {
-            "format": "jpg",
-            "id": "ca80a7543d3478d9a3044121311d6b3e",
-            "name": "dog.53.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.53.jpg",
+        "e77a6b3a5193c883f909d7269a8d6bc5": {
+            "format": "jpeg",
+            "id": "e77a6b3a5193c883f909d7269a8d6bc5",
+            "name": "pc28.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc28.jpeg",
             "size": {
-                "width": 396,
-                "height": 267
+                "width": 474,
+                "height": 643
             },
             "state": 2,
             "type": 1
         },
-        "365d5b6aa399a8636a7f6c4927a1d4a8": {
-            "format": "jpg",
-            "id": "365d5b6aa399a8636a7f6c4927a1d4a8",
-            "name": "dog.54.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.54.jpg",
+        "0ce8664d23be4e4f1f1025ccb523a765": {
+            "format": "jpeg",
+            "id": "0ce8664d23be4e4f1f1025ccb523a765",
+            "name": "pc29.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc29.jpeg",
             "size": {
-                "width": 400,
-                "height": 284
+                "width": 474,
+                "height": 711
             },
             "state": 2,
             "type": 1
         },
-        "3b0f285de38413b63650ca8bd21979a8": {
-            "format": "jpg",
-            "id": "3b0f285de38413b63650ca8bd21979a8",
-            "name": "dog.56.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.56.jpg",
+        "7ce98221c2f783d1cfcccd49ebc1f974": {
+            "format": "jpeg",
+            "id": "7ce98221c2f783d1cfcccd49ebc1f974",
+            "name": "pc3.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc3.jpeg",
             "size": {
-                "width": 492,
-                "height": 499
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "ce4bfffd429759e2cfc9ec028c5bba02": {
-            "format": "jpg",
-            "id": "ce4bfffd429759e2cfc9ec028c5bba02",
-            "name": "dog.57.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.57.jpg",
+        "20ba9e3f18e86ee64f9c63f8f90e7c3d": {
+            "format": "jpeg",
+            "id": "20ba9e3f18e86ee64f9c63f8f90e7c3d",
+            "name": "pc30.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc30.jpeg",
             "size": {
-                "width": 302,
-                "height": 400
+                "width": 474,
+                "height": 376
             },
             "state": 2,
             "type": 1
         },
-        "d70588c7760d2e589356a5f62ba0d9a5": {
-            "format": "jpg",
-            "id": "d70588c7760d2e589356a5f62ba0d9a5",
-            "name": "dog.58.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.58.jpg",
+        "0f02812d4a13cc6abf418df827a5ed0e": {
+            "format": "jpeg",
+            "id": "0f02812d4a13cc6abf418df827a5ed0e",
+            "name": "pc31.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc31.jpeg",
             "size": {
-                "width": 499,
+                "width": 474,
+                "height": 624
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0a8275d37c6e22248583ab2807a2449": {
+            "format": "jpeg",
+            "id": "d0a8275d37c6e22248583ab2807a2449",
+            "name": "pc32.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc32.jpeg",
+            "size": {
+                "width": 474,
+                "height": 643
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd2c652ac1bb05d3ca29fb31ceb71d2a": {
+            "format": "jpeg",
+            "id": "cd2c652ac1bb05d3ca29fb31ceb71d2a",
+            "name": "pc33.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc33.jpeg",
+            "size": {
+                "width": 474,
+                "height": 341
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65d6ca03735a73d8854892b74fcfb5ae": {
+            "format": "jpeg",
+            "id": "65d6ca03735a73d8854892b74fcfb5ae",
+            "name": "pc34.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc34.jpeg",
+            "size": {
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0368af944bef354d5c1f7e98ea124403": {
+            "format": "jpeg",
+            "id": "0368af944bef354d5c1f7e98ea124403",
+            "name": "pc35.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc35.jpeg",
+            "size": {
+                "width": 474,
+                "height": 315
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a3b14f43b5a02a06ff406fdd3271dad": {
+            "format": "jpeg",
+            "id": "0a3b14f43b5a02a06ff406fdd3271dad",
+            "name": "pc36.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc36.jpeg",
+            "size": {
+                "width": 474,
+                "height": 711
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e0364b497fd7a967c32e3833ae1b47f8": {
+            "format": "jpeg",
+            "id": "e0364b497fd7a967c32e3833ae1b47f8",
+            "name": "pc37.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc37.jpeg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9248fcfb31be84c1184fd19dca0f7bfa": {
+            "format": "jpeg",
+            "id": "9248fcfb31be84c1184fd19dca0f7bfa",
+            "name": "pc38.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc38.jpeg",
+            "size": {
+                "width": 474,
+                "height": 246
+            },
+            "state": 2,
+            "type": 1
+        },
+        "338a47d11c18e99dbe0ba294ccfceccf": {
+            "format": "jpeg",
+            "id": "338a47d11c18e99dbe0ba294ccfceccf",
+            "name": "pc39.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc39.jpeg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ce5a8dd8ce53860b092ee7858992aae1": {
+            "format": "jpeg",
+            "id": "ce5a8dd8ce53860b092ee7858992aae1",
+            "name": "pc4.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc4.jpeg",
+            "size": {
+                "width": 474,
+                "height": 530
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aca063f3124adab380fbc31872b58f99": {
+            "format": "jpeg",
+            "id": "aca063f3124adab380fbc31872b58f99",
+            "name": "pc40.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc40.jpeg",
+            "size": {
+                "width": 474,
+                "height": 315
+            },
+            "state": 2,
+            "type": 1
+        },
+        "102d7e4db647b545aad8b88a5ac94257": {
+            "format": "jpeg",
+            "id": "102d7e4db647b545aad8b88a5ac94257",
+            "name": "pc41.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc41.jpeg",
+            "size": {
+                "width": 474,
+                "height": 234
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0615fdc54dfe017ef3886bb3fa2c609": {
+            "format": "jpeg",
+            "id": "f0615fdc54dfe017ef3886bb3fa2c609",
+            "name": "pc42.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc42.jpeg",
+            "size": {
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "769eadf3f19c7ea2a82ed38e6eaf1a99": {
+            "format": "jpeg",
+            "id": "769eadf3f19c7ea2a82ed38e6eaf1a99",
+            "name": "pc43.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc43.jpeg",
+            "size": {
+                "width": 474,
+                "height": 237
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73a29b6051ef353f1cd57dfced8b0411": {
+            "format": "jpeg",
+            "id": "73a29b6051ef353f1cd57dfced8b0411",
+            "name": "pc44.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc44.jpeg",
+            "size": {
+                "width": 474,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20e9f1a0be201b29263aa7a5d3eccad6": {
+            "format": "jpeg",
+            "id": "20e9f1a0be201b29263aa7a5d3eccad6",
+            "name": "pc45.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc45.jpeg",
+            "size": {
+                "width": 372,
+                "height": 253
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13ed74a42a5a2a3f3e7b55164fbbadb4": {
+            "format": "jpeg",
+            "id": "13ed74a42a5a2a3f3e7b55164fbbadb4",
+            "name": "pc46.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc46.jpeg",
+            "size": {
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29fd5700d2559b3d3be25c9873cb27a7": {
+            "format": "jpeg",
+            "id": "29fd5700d2559b3d3be25c9873cb27a7",
+            "name": "pc5.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc5.jpeg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b520e7d4222d6b801a838df1fe4f36c": {
+            "format": "jpeg",
+            "id": "3b520e7d4222d6b801a838df1fe4f36c",
+            "name": "pc6.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc6.jpeg",
+            "size": {
+                "width": 474,
+                "height": 672
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24d5e09ee08abfa95610824b131a54ce": {
+            "format": "jpeg",
+            "id": "24d5e09ee08abfa95610824b131a54ce",
+            "name": "pc7.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc7.jpeg",
+            "size": {
+                "width": 474,
                 "height": 281
             },
             "state": 2,
             "type": 1
         },
-        "a0400301ce077db6d4a3d1cdcff844c8": {
-            "format": "jpg",
-            "id": "a0400301ce077db6d4a3d1cdcff844c8",
-            "name": "dog.59.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.59.jpg",
+        "6de342ef2bfde54dddbc9c2e4e300e39": {
+            "format": "jpeg",
+            "id": "6de342ef2bfde54dddbc9c2e4e300e39",
+            "name": "th%20(1).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(1).jpeg",
             "size": {
-                "width": 500,
-                "height": 331
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "037d7f778fd8fdddc24a6b2b18ddc5bd": {
-            "format": "jpg",
-            "id": "037d7f778fd8fdddc24a6b2b18ddc5bd",
-            "name": "dog.61.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.61.jpg",
+        "0fceb1ca5bb2c9099f7de46fad709ce8": {
+            "format": "jpeg",
+            "id": "0fceb1ca5bb2c9099f7de46fad709ce8",
+            "name": "pc9.jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc9.jpeg",
             "size": {
-                "width": 499,
-                "height": 342
+                "width": 474,
+                "height": 711
             },
             "state": 2,
             "type": 1
         },
-        "a94f4cc74da063c56951272a4dece595": {
-            "format": "jpg",
-            "id": "a94f4cc74da063c56951272a4dece595",
-            "name": "dog.6.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.6.jpg",
+        "7558e6aa78c7c5fc9740e6319f4adb8d": {
+            "format": "jpeg",
+            "id": "7558e6aa78c7c5fc9740e6319f4adb8d",
+            "name": "th%20(10).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(10).jpeg",
             "size": {
-                "width": 499,
-                "height": 488
+                "width": 212,
+                "height": 320
             },
             "state": 2,
             "type": 1
         },
-        "6481fc5eccf81d703274330d7558212c": {
+        "6f0baa55d7068ee58b2131babb7d81e7": {
             "format": "jpg",
-            "id": "6481fc5eccf81d703274330d7558212c",
-            "name": "dog.62.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.62.jpg",
+            "id": "6f0baa55d7068ee58b2131babb7d81e7",
+            "name": "th%20(1).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(1).jpg",
             "size": {
-                "width": 337,
-                "height": 449
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "1e42fb7f0a4419c76bb3e669ee3f17fc": {
+        "e286be8a1c51ac291051ae9c61661c10": {
             "format": "jpg",
-            "id": "1e42fb7f0a4419c76bb3e669ee3f17fc",
-            "name": "dog.63.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.63.jpg",
+            "id": "e286be8a1c51ac291051ae9c61661c10",
+            "name": "th%20(10).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(10).jpg",
             "size": {
-                "width": 401,
-                "height": 499
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "56294b6a605ecdd6d2ca4d6b0cf0c185": {
-            "format": "jpg",
-            "id": "56294b6a605ecdd6d2ca4d6b0cf0c185",
-            "name": "dog.64.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.64.jpg",
+        "56c8af01e9c82a5bbaa1efe4ade5e3d4": {
+            "format": "jpeg",
+            "id": "56c8af01e9c82a5bbaa1efe4ade5e3d4",
+            "name": "th%20(11).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(11).jpeg",
             "size": {
-                "width": 419,
-                "height": 500
+                "width": 474,
+                "height": 313
             },
             "state": 2,
             "type": 1
         },
-        "6b2f0fc0ff0c9ad34a5b3a05d2ad0bd6": {
+        "907598c76a427563ce67ec0d0f2f77c5": {
             "format": "jpg",
-            "id": "6b2f0fc0ff0c9ad34a5b3a05d2ad0bd6",
-            "name": "dog.66.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.66.jpg",
+            "id": "907598c76a427563ce67ec0d0f2f77c5",
+            "name": "th%20(11).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(11).jpg",
             "size": {
-                "width": 499,
-                "height": 397
+                "width": 474,
+                "height": 314
             },
             "state": 2,
             "type": 1
         },
-        "e0cef86b191c7957bb6704cd526d98e0": {
-            "format": "jpg",
-            "id": "e0cef86b191c7957bb6704cd526d98e0",
-            "name": "dog.67.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.67.jpg",
+        "cff5f08e0a057cbddf40b6d344a69ec7": {
+            "format": "jpeg",
+            "id": "cff5f08e0a057cbddf40b6d344a69ec7",
+            "name": "th%20(12).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(12).jpeg",
             "size": {
-                "width": 399,
-                "height": 400
+                "width": 474,
+                "height": 338
             },
             "state": 2,
             "type": 1
         },
-        "768fb2af1ff929e37767eb15ad183ea6": {
+        "1fa7e37bff5c37868addae0c5cebbb04": {
             "format": "jpg",
-            "id": "768fb2af1ff929e37767eb15ad183ea6",
-            "name": "dog.68.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.68.jpg",
+            "id": "1fa7e37bff5c37868addae0c5cebbb04",
+            "name": "th%20(12).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(12).jpg",
             "size": {
-                "width": 299,
-                "height": 254
+                "width": 302,
+                "height": 295
             },
             "state": 2,
             "type": 1
         },
-        "c227ec9877a5a6cdc1bd64f9d82f5ce4": {
-            "format": "jpg",
-            "id": "c227ec9877a5a6cdc1bd64f9d82f5ce4",
-            "name": "dog.69.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.69.jpg",
+        "f69b713af19b8a67230ce439e177f72a": {
+            "format": "jpeg",
+            "id": "f69b713af19b8a67230ce439e177f72a",
+            "name": "th%20(13).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(13).jpeg",
             "size": {
-                "width": 128,
-                "height": 95
+                "width": 474,
+                "height": 305
             },
             "state": 2,
             "type": 1
         },
-        "caee00472050115b5ef02148161287b4": {
+        "9859e5d4771eb2a7f3d6cece9a99ef72": {
             "format": "jpg",
-            "id": "caee00472050115b5ef02148161287b4",
-            "name": "dog.7.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.7.jpg",
+            "id": "9859e5d4771eb2a7f3d6cece9a99ef72",
+            "name": "th%20(13).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(13).jpg",
             "size": {
-                "width": 299,
-                "height": 264
-            },
-            "state": 2,
-            "type": 1
-        },
-        "f71f8df46aa7e42765c9d4762ca64e36": {
-            "format": "jpg",
-            "id": "f71f8df46aa7e42765c9d4762ca64e36",
-            "name": "dog.71.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.71.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "34fec010127f25c1df744d77acd7c9c7": {
-            "format": "jpg",
-            "id": "34fec010127f25c1df744d77acd7c9c7",
-            "name": "dog.72.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.72.jpg",
-            "size": {
-                "width": 500,
-                "height": 374
-            },
-            "state": 2,
-            "type": 1
-        },
-        "ee91c61939373593dc008fb8570d798c": {
-            "format": "jpg",
-            "id": "ee91c61939373593dc008fb8570d798c",
-            "name": "dog.73.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.73.jpg",
-            "size": {
-                "width": 299,
-                "height": 227
-            },
-            "state": 2,
-            "type": 1
-        },
-        "6651f120c7269359c44d3d0cc68f074a": {
-            "format": "jpg",
-            "id": "6651f120c7269359c44d3d0cc68f074a",
-            "name": "dog.74.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.74.jpg",
-            "size": {
-                "width": 500,
+                "width": 474,
                 "height": 367
             },
             "state": 2,
             "type": 1
         },
-        "486818a6c181b2f89d598efa4c21c5cb": {
-            "format": "jpg",
-            "id": "486818a6c181b2f89d598efa4c21c5cb",
-            "name": "dog.76.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.76.jpg",
+        "834379adbc0b404a2be295b94eeaf8cf": {
+            "format": "jpeg",
+            "id": "834379adbc0b404a2be295b94eeaf8cf",
+            "name": "th%20(14).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(14).jpeg",
             "size": {
-                "width": 171,
-                "height": 185
+                "width": 300,
+                "height": 161
             },
             "state": 2,
             "type": 1
         },
-        "c8e319d1d07a1bb7c261498746a2fd1b": {
+        "5f4be1c40b235f923cb95ee8f64fac9b": {
             "format": "jpg",
-            "id": "c8e319d1d07a1bb7c261498746a2fd1b",
-            "name": "dog.77.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.77.jpg",
+            "id": "5f4be1c40b235f923cb95ee8f64fac9b",
+            "name": "th%20(14).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(14).jpg",
             "size": {
-                "width": 337,
-                "height": 306
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "4983ecaeca2891f2fb5cac2b357b9ebf": {
-            "format": "jpg",
-            "id": "4983ecaeca2891f2fb5cac2b357b9ebf",
-            "name": "dog.78.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.78.jpg",
+        "244d1a10815120209c58a83c20c380fc": {
+            "format": "jpeg",
+            "id": "244d1a10815120209c58a83c20c380fc",
+            "name": "th%20(15).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(15).jpeg",
             "size": {
-                "width": 500,
-                "height": 374
+                "width": 300,
+                "height": 225
             },
             "state": 2,
             "type": 1
         },
-        "b0db514ec7a04bbd6cfbc6a7fd8133ae": {
+        "f68cb4821a403d57557c2c76f563e4a1": {
             "format": "jpg",
-            "id": "b0db514ec7a04bbd6cfbc6a7fd8133ae",
-            "name": "dog.79.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.79.jpg",
+            "id": "f68cb4821a403d57557c2c76f563e4a1",
+            "name": "th%20(15).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(15).jpg",
             "size": {
-                "width": 251,
-                "height": 254
+                "width": 474,
+                "height": 297
             },
             "state": 2,
             "type": 1
         },
-        "6ea1f466115eef60437f368b8792fe37": {
-            "format": "jpg",
-            "id": "6ea1f466115eef60437f368b8792fe37",
-            "name": "dog.8.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.8.jpg",
+        "07d9e683a211ff92301886af8474e323": {
+            "format": "jpeg",
+            "id": "07d9e683a211ff92301886af8474e323",
+            "name": "th%20(16).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(16).jpeg",
             "size": {
-                "width": 469,
-                "height": 500
+                "width": 474,
+                "height": 333
             },
             "state": 2,
             "type": 1
         },
-        "bfc446509aefd9cfaf311d34abf8f7c0": {
+        "dbb05f2c51d0259f818ae48ed75850e3": {
             "format": "jpg",
-            "id": "bfc446509aefd9cfaf311d34abf8f7c0",
-            "name": "dog.81.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.81.jpg",
+            "id": "dbb05f2c51d0259f818ae48ed75850e3",
+            "name": "th%20(16).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(16).jpg",
             "size": {
-                "width": 105,
-                "height": 110
+                "width": 474,
+                "height": 436
             },
             "state": 2,
             "type": 1
         },
-        "c896e19691868aab534c18f5f0846abc": {
-            "format": "jpg",
-            "id": "c896e19691868aab534c18f5f0846abc",
-            "name": "dog.82.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.82.jpg",
+        "d7b0de73fe94639f7760724aab92c8bd": {
+            "format": "jpeg",
+            "id": "d7b0de73fe94639f7760724aab92c8bd",
+            "name": "th%20(17).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(17).jpeg",
             "size": {
-                "width": 500,
-                "height": 463
+                "width": 473,
+                "height": 340
             },
             "state": 2,
             "type": 1
         },
-        "1fac71632a297df86cadae1a06b7d213": {
+        "f70d736c3e8b2922f9ff6de796445ea6": {
             "format": "jpg",
-            "id": "1fac71632a297df86cadae1a06b7d213",
-            "name": "dog.83.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.83.jpg",
+            "id": "f70d736c3e8b2922f9ff6de796445ea6",
+            "name": "th%20(17).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(17).jpg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 263
             },
             "state": 2,
             "type": 1
         },
-        "6ec0614bab2f58c1745e0e48e12658b9": {
-            "format": "jpg",
-            "id": "6ec0614bab2f58c1745e0e48e12658b9",
-            "name": "dog.84(1).jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.84(1).jpg",
+        "d02c86d147142fdc50688c2ffb4e74a5": {
+            "format": "jpeg",
+            "id": "d02c86d147142fdc50688c2ffb4e74a5",
+            "name": "th%20(18).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(18).jpeg",
             "size": {
-                "width": 357,
-                "height": 499
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "931ba896359995fa21898bf94e4f6093": {
+        "71cebe18d77d48af09231ba6f886c974": {
             "format": "jpg",
-            "id": "931ba896359995fa21898bf94e4f6093",
-            "name": "dog.85.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.85.jpg",
+            "id": "71cebe18d77d48af09231ba6f886c974",
+            "name": "th%20(18).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(18).jpg",
             "size": {
-                "width": 224,
-                "height": 243
+                "width": 474,
+                "height": 400
             },
             "state": 2,
             "type": 1
         },
-        "b7c4a565facbbba7cf42febefe77b745": {
-            "format": "jpg",
-            "id": "b7c4a565facbbba7cf42febefe77b745",
-            "name": "dog.86.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.86.jpg",
+        "67ad107f8a5dcb3e6748c3ade7c9ae5b": {
+            "format": "jpeg",
+            "id": "67ad107f8a5dcb3e6748c3ade7c9ae5b",
+            "name": "th%20(19).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(19).jpeg",
             "size": {
-                "width": 139,
-                "height": 137
+                "width": 474,
+                "height": 266
             },
             "state": 2,
             "type": 1
         },
-        "6102881ba56774f14369f957f9678c0c": {
+        "d3348b8d5a8ce59449a2f55943cd1ff9": {
             "format": "jpg",
-            "id": "6102881ba56774f14369f957f9678c0c",
-            "name": "dog.87.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.87.jpg",
+            "id": "d3348b8d5a8ce59449a2f55943cd1ff9",
+            "name": "th%20(19).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(19).jpg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 290
             },
             "state": 2,
             "type": 1
         },
-        "f439d4df4d211f1fc6a081436eeba824": {
-            "format": "jpg",
-            "id": "f439d4df4d211f1fc6a081436eeba824",
-            "name": "dog.88.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.88.jpg",
+        "12810c3b43c8dee35f3d50c1725122af": {
+            "format": "jpeg",
+            "id": "12810c3b43c8dee35f3d50c1725122af",
+            "name": "th%20(2).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(2).jpeg",
             "size": {
-                "width": 500,
-                "height": 328
+                "width": 240,
+                "height": 170
             },
             "state": 2,
             "type": 1
         },
-        "a619fbf42f49daf12a77d93c1307adae": {
+        "5fe99426796b86d4454a508f6a3d3b61": {
             "format": "jpg",
-            "id": "a619fbf42f49daf12a77d93c1307adae",
-            "name": "dog.9.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.9.jpg",
+            "id": "5fe99426796b86d4454a508f6a3d3b61",
+            "name": "th%20(2).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(2).jpg",
             "size": {
-                "width": 368,
-                "height": 500
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "84450bbc9932e3ffff2e601a74f5eca7": {
-            "format": "jpg",
-            "id": "84450bbc9932e3ffff2e601a74f5eca7",
-            "name": "dog.90(1).jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.90(1).jpg",
+        "bcb426654afe7cf1e1cfe398933f1761": {
+            "format": "jpeg",
+            "id": "bcb426654afe7cf1e1cfe398933f1761",
+            "name": "th%20(20).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(20).jpeg",
             "size": {
-                "width": 285,
-                "height": 499
+                "width": 474,
+                "height": 324
             },
             "state": 2,
             "type": 1
         },
-        "a45dd1e8b6990495e403750f66d2f217": {
+        "57bc6692b1ecf8c89d08263137063e8a": {
             "format": "jpg",
-            "id": "a45dd1e8b6990495e403750f66d2f217",
-            "name": "dog.90.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.90.jpg",
+            "id": "57bc6692b1ecf8c89d08263137063e8a",
+            "name": "th%20(20).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(20).jpg",
             "size": {
-                "width": 285,
-                "height": 499
+                "width": 474,
+                "height": 301
             },
             "state": 2,
             "type": 1
         },
-        "7ec7fe00c78c666e4574e42b325de5f4": {
-            "format": "jpg",
-            "id": "7ec7fe00c78c666e4574e42b325de5f4",
-            "name": "dog.91.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.91.jpg",
+        "7b464dc699817a7b3c11b52e2fd9fa0e": {
+            "format": "jpeg",
+            "id": "7b464dc699817a7b3c11b52e2fd9fa0e",
+            "name": "th%20(21).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(21).jpeg",
             "size": {
-                "width": 199,
-                "height": 218
+                "width": 474,
+                "height": 353
             },
             "state": 2,
             "type": 1
         },
-        "dcb842b171e3ef9471aee990ef9362d1": {
+        "de13a061bcc227331fe81b25b7e96c16": {
             "format": "jpg",
-            "id": "dcb842b171e3ef9471aee990ef9362d1",
-            "name": "dog.92.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.92.jpg",
+            "id": "de13a061bcc227331fe81b25b7e96c16",
+            "name": "th%20(21).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(21).jpg",
             "size": {
-                "width": 313,
-                "height": 233
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "11761f41fb8bdc7aa09c49ecad15d268": {
-            "format": "jpg",
-            "id": "11761f41fb8bdc7aa09c49ecad15d268",
-            "name": "dog.94.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.94.jpg",
+        "69bbc406196ece88ba50c6f500d2f334": {
+            "format": "jpeg",
+            "id": "69bbc406196ece88ba50c6f500d2f334",
+            "name": "th%20(22).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(22).jpeg",
             "size": {
-                "width": 488,
-                "height": 262
+                "width": 370,
+                "height": 350
             },
             "state": 2,
             "type": 1
         },
-        "8357bfa98ac75977dede0ad334371ff2": {
+        "2e89e101b8341ba0a89483b489bb6771": {
             "format": "jpg",
-            "id": "8357bfa98ac75977dede0ad334371ff2",
-            "name": "dog.95.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.95.jpg",
+            "id": "2e89e101b8341ba0a89483b489bb6771",
+            "name": "th%20(22).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(22).jpg",
             "size": {
-                "width": 499,
-                "height": 332
+                "width": 435,
+                "height": 473
             },
             "state": 2,
             "type": 1
         },
-        "1d8f2c6fe365e526e1bcbe4e1fbddf2f": {
-            "format": "jpg",
-            "id": "1d8f2c6fe365e526e1bcbe4e1fbddf2f",
-            "name": "dog.96.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.96.jpg",
+        "70ef739cda265a2268e70e6bbc5b4a9d": {
+            "format": "jpeg",
+            "id": "70ef739cda265a2268e70e6bbc5b4a9d",
+            "name": "th%20(23).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(23).jpeg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 355
             },
             "state": 2,
             "type": 1
         },
-        "79d990a4770bdfa2d7a9e37ea65c7001": {
+        "74e5fd9b491cb732be256ad4cab95836": {
             "format": "jpg",
-            "id": "79d990a4770bdfa2d7a9e37ea65c7001",
-            "name": "dog.97.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.97.jpg",
+            "id": "74e5fd9b491cb732be256ad4cab95836",
+            "name": "th%20(23).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(23).jpg",
             "size": {
-                "width": 499,
-                "height": 375
+                "width": 474,
+                "height": 300
             },
             "state": 2,
             "type": 1
         },
-        "5774b4501999893c81087513298fd265": {
-            "format": "jpg",
-            "id": "5774b4501999893c81087513298fd265",
-            "name": "dog.99.jpg",
-            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/dog.99.jpg",
+        "dc2beab561190503600e6a24b5cc99ae": {
+            "format": "jpeg",
+            "id": "dc2beab561190503600e6a24b5cc99ae",
+            "name": "th%20(24).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(24).jpeg",
             "size": {
-                "width": 500,
-                "height": 374
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47e9277d1b5d313aa77508c9ff4c1b98": {
+            "format": "jpg",
+            "id": "47e9277d1b5d313aa77508c9ff4c1b98",
+            "name": "th%20(24).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(24).jpg",
+            "size": {
+                "width": 250,
+                "height": 250
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da2911ce7fb5682894d7942c53153e87": {
+            "format": "jpeg",
+            "id": "da2911ce7fb5682894d7942c53153e87",
+            "name": "th%20(25).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(25).jpeg",
+            "size": {
+                "width": 474,
+                "height": 237
+            },
+            "state": 2,
+            "type": 1
+        },
+        "416834ccc24d4625723a6eff8758c1a3": {
+            "format": "jpg",
+            "id": "416834ccc24d4625723a6eff8758c1a3",
+            "name": "th%20(25).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(25).jpg",
+            "size": {
+                "width": 474,
+                "height": 356
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2aca29cde7388db2502a69a36d316e72": {
+            "format": "jpeg",
+            "id": "2aca29cde7388db2502a69a36d316e72",
+            "name": "th%20(26).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(26).jpeg",
+            "size": {
+                "width": 474,
+                "height": 311
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c9961a9a243f824c3bbded4715985c6": {
+            "format": "jpeg",
+            "id": "9c9961a9a243f824c3bbded4715985c6",
+            "name": "th%20(27).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(27).jpeg",
+            "size": {
+                "width": 474,
+                "height": 402
+            },
+            "state": 2,
+            "type": 1
+        },
+        "242c401c23436ab5a3d4705bf23bacbc": {
+            "format": "jpeg",
+            "id": "242c401c23436ab5a3d4705bf23bacbc",
+            "name": "th%20(28).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(28).jpeg",
+            "size": {
+                "width": 474,
+                "height": 351
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b9cb4b7aa4b67425171f1a6986f711b": {
+            "format": "jpeg",
+            "id": "6b9cb4b7aa4b67425171f1a6986f711b",
+            "name": "th%20(29).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(29).jpeg",
+            "size": {
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d960ac7316275d384d67140f9504f131": {
+            "format": "jpeg",
+            "id": "d960ac7316275d384d67140f9504f131",
+            "name": "th%20(3).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(3).jpeg",
+            "size": {
+                "width": 474,
+                "height": 248
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13b74756f902ded7294194b53c0b868d": {
+            "format": "jpg",
+            "id": "13b74756f902ded7294194b53c0b868d",
+            "name": "th%20(3).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(3).jpg",
+            "size": {
+                "width": 474,
+                "height": 355
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68a34271c9e254d04ca7cb0e6dd811dc": {
+            "format": "jpeg",
+            "id": "68a34271c9e254d04ca7cb0e6dd811dc",
+            "name": "th%20(30).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(30).jpeg",
+            "size": {
+                "width": 474,
+                "height": 424
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a8fc9c50e2d2f402aab17ef3faea4785": {
+            "format": "jpeg",
+            "id": "a8fc9c50e2d2f402aab17ef3faea4785",
+            "name": "th%20(4).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(4).jpeg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8dc9590addbf1bb568133853a557d55": {
+            "format": "jpg",
+            "id": "c8dc9590addbf1bb568133853a557d55",
+            "name": "th%20(4).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(4).jpg",
+            "size": {
+                "width": 474,
+                "height": 248
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22a643df08a7fcc27ee1ad8a1ef147e9": {
+            "format": "jpeg",
+            "id": "22a643df08a7fcc27ee1ad8a1ef147e9",
+            "name": "th%20(5).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(5).jpeg",
+            "size": {
+                "width": 474,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9fd92073a73aaaa776804cf9a61341a6": {
+            "format": "jpg",
+            "id": "9fd92073a73aaaa776804cf9a61341a6",
+            "name": "th%20(5).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(5).jpg",
+            "size": {
+                "width": 474,
+                "height": 356
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b24c6a7d3e406c85370ea4c2c379bbe": {
+            "format": "jpeg",
+            "id": "0b24c6a7d3e406c85370ea4c2c379bbe",
+            "name": "th%20(6).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(6).jpeg",
+            "size": {
+                "width": 184,
+                "height": 184
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27186d52750f5bb8a7a234d8c0e61adc": {
+            "format": "jpg",
+            "id": "27186d52750f5bb8a7a234d8c0e61adc",
+            "name": "th%20(6).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(6).jpg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf3fc318d3b5ebb78f1368755d8cc87c": {
+            "format": "jpeg",
+            "id": "cf3fc318d3b5ebb78f1368755d8cc87c",
+            "name": "th%20(7).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(7).jpeg",
+            "size": {
+                "width": 184,
+                "height": 184
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd14b44bb5e3fd25e3d036e8c76c5b8f": {
+            "format": "jpg",
+            "id": "dd14b44bb5e3fd25e3d036e8c76c5b8f",
+            "name": "th%20(7).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(7).jpg",
+            "size": {
+                "width": 474,
+                "height": 355
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ec5ccef919260b7b01e527c0ef747aa": {
+            "format": "jpeg",
+            "id": "8ec5ccef919260b7b01e527c0ef747aa",
+            "name": "th%20(8).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(8).jpeg",
+            "size": {
+                "width": 400,
+                "height": 267
+            },
+            "state": 2,
+            "type": 1
+        },
+        "284008de512104007ca317b7ed76d899": {
+            "format": "jpg",
+            "id": "284008de512104007ca317b7ed76d899",
+            "name": "th%20(8).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(8).jpg",
+            "size": {
+                "width": 474,
+                "height": 355
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1f17c4896073f7d12cecc47ea15c21a0": {
+            "format": "jpeg",
+            "id": "1f17c4896073f7d12cecc47ea15c21a0",
+            "name": "th%20(9).jpeg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(9).jpeg",
+            "size": {
+                "width": 474,
+                "height": 266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e84f39e8611f60d66a891bb677a9e35": {
+            "format": "jpg",
+            "id": "6e84f39e8611f60d66a891bb677a9e35",
+            "name": "th%20(9).jpg",
+            "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(9).jpg",
+            "size": {
+                "width": 474,
+                "height": 349
             },
             "state": 2,
             "type": 1

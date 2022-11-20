@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "69bbc406196ece88ba50c6f500d2f334",
+        "name": "th%20(22).jpeg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(22).jpeg",
+        "size": {
+            "width": 370,
+            "height": 350
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Wy-I9BsAv",
+            "type": "RECTANGLE",
+            "tags": [
+                "Rat"
+            ],
+            "boundingBox": {
+                "height": 138.39999389648438,
+                "width": 197.1999969482422,
+                "left": 38.15000915527344,
+                "top": 93.60000610351562
+            },
+            "points": [
+                {
+                    "x": 38.15000915527344,
+                    "y": 93.60000610351562
+                },
+                {
+                    "x": 235.35000610351562,
+                    "y": 93.60000610351562
+                },
+                {
+                    "x": 235.35000610351562,
+                    "y": 232
+                },
+                {
+                    "x": 38.15000915527344,
+                    "y": 232
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

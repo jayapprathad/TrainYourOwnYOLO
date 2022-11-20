@@ -67,8 +67,8 @@ arglist = [
 ]
 call_string = " ".join(["python", detector_script, make_call_string(arglist)])
 
-print("Detecting Cat Faces by calling: \n\n", call_string, "\n")
+print("Detecting animals by calling: \n\n", call_string, "\n")
 start = time.time()
 subprocess.call(call_string, shell=True)
 end = time.time()
-print("Detected Cat Faces in {0:.1f} seconds".format(end - start))
+print("Detected Animal Faces in {0:.1f} seconds".format(end - start))

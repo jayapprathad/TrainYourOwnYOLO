@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "c9c1aeb15b3f32e27e9cdcf1fd5e31a7",
+        "name": "pc20.jpeg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/pc20.jpeg",
+        "size": {
+            "width": 474,
+            "height": 461
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "lQkW-fhp3",
+            "type": "RECTANGLE",
+            "tags": [
+                "Peacock"
+            ],
+            "boundingBox": {
+                "height": 333.5005875069755,
+                "width": 304.4133895874023,
+                "left": 117.2985336303711,
+                "top": 36.88
+            },
+            "points": [
+                {
+                    "x": 117.2985336303711,
+                    "y": 36.88
+                },
+                {
+                    "x": 421.71192321777346,
+                    "y": 36.88
+                },
+                {
+                    "x": 421.71192321777346,
+                    "y": 370.3805875069755
+                },
+                {
+                    "x": 117.2985336303711,
+                    "y": 370.3805875069755
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

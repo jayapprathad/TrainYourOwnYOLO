@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "de13a061bcc227331fe81b25b7e96c16",
+        "name": "th%20(21).jpg",
+        "path": "file:C:/Users/jayap/OneDrive/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/th%20(21).jpg",
+        "size": {
+            "width": 474,
+            "height": 355
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "tL2F1Qe3l",
+            "type": "RECTANGLE",
+            "tags": [
+                "Goat"
+            ],
+            "boundingBox": {
+                "height": 322.5428610120501,
+                "width": 341.03641805710066,
+                "left": 65.78399357601712,
+                "top": 15.822859464372906
+            },
+            "points": [
+                {
+                    "x": 65.78399357601712,
+                    "y": 15.822859464372906
+                },
+                {
+                    "x": 406.82041163311777,
+                    "y": 15.822859464372906
+                },
+                {
+                    "x": 406.82041163311777,
+                    "y": 338.36572047642295
+                },
+                {
+                    "x": 65.78399357601712,
+                    "y": 338.36572047642295
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
